@@ -14,7 +14,7 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-#f4f4f4 py-3 ">
     <div class="container">
 
         <!-- LOGO -->
@@ -34,16 +34,16 @@
             class="navbar-nav mx-auto bg-white shadow-sm px-4 py-2 rounded-pill gap-3"
             style="font-weight: 500;">
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Inicio</a>
+            <a class="nav-link text-dark" href="index-inicio.html">Inicio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Programas</a>
+            <a class="nav-link text-dark" href="index-programas.html">Programas</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Doná</a>
+            <a class="nav-link text-dark" href="index-dona.html">Doná</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="#">App</a>
+            <a class="nav-link text-dark" href="index-app.html">App</a>
             </li>
         </ul>
 
@@ -72,97 +72,107 @@
     </div>
     </nav>
 
-    <main class="contact-container">
-        <section class="form-section">
-            <div class="form-info">
-                <h1>Completá tus datos y te respondemos a la brevedad</h1>
-                <div class="form-image-container">
-                    <img src="./img inicio/imagen.png" alt="Imagen de un pequeño animal" class="form-image">
-                </div>
-            </div>
-            
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="nombre">Nombre Completo:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="organizacion">Organización (Opcional):</label>
-                    <input type="text" id="organizacion" name="organizacion">
-                </div>
-                
-                <div class="form-group">
-                    <label for="motivo">Motivo de contacto (HACER LISTADO):</label>
-                    <input type="text" id="motivo" name="motivo" required> 
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                
-                <button type="submit" class="btn-submit">Enviar »</button>
-            </form>
-        </section>
-    </main>
+    <section class="contact-container">
 
-    </div> <!-- acá cierra tu formulario-container -->
+        <div class="left-side">
+            <h2 class="title">
+                Completá tus datos y <br>
+                te respondemos a <br>
+                la brevedad
+            </h2>
 
-    <section class="seccion-verde">
-    <div class="curva-blanca"></div>
 
-    <div class="contenedor-oficinas">
-        <div class="oficina">
-            <h3>Oficina 1</h3>
-            <p>📞 +44473997991</p>
-            <p>✉ sybedesigns@gmail.com</p>
-            <p>📍 2068 Boulevard Henri<br>- Bourassa Est</p>
+        <div class="left-img">
+        <img src="./img inicio/imagen.png" alt="Imagen de contacto">
+        </div>
         </div>
 
-        <div class="oficina">
-            <h3>Oficina 2</h3>
-            <p>📞 +44473997991</p>
-            <p>✉ sybedesigns@gmail.com</p>
-            <p>📍 2068 Boulevard Henri<br>- Bourassa Est</p>
-        </div>
 
-        <div class="oficina">
-            <h3>Oficina 3</h3>
-            <p>📞 +44473997991</p>
-            <p>✉ sybedesigns@gmail.com</p>
-            <p>📍 2068 Boulevard Henri<br>- Bourassa Est</p>
-        </div>
-    </div>
+        <form class="contact-form">
+
+        <label>Nombre Completo:</label>
+        <input type="text" placeholder="Nombre Completo">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Email">
+
+        <label>Organización (Opcional):</label>
+        <input type="text" placeholder="Organización (Opcional)">
+
+        <label>Motivo de contacto (HACER LISTADO):</label>
+        <input type="text" placeholder="Motivo de contacto">
+
+        <label>Message:</label>
+        <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+
+        <button type="submit" class="submit-btn">Enviar</button>
+
+        </form>
+
     </section>
 
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="logo-sembrar-eco-small.png" alt="Logo ECO pequeño" height="25">
-                <span>© Área. 2025</span>
-            </div>
-            <nav class="footer-nav">
-    <a href="index-inicio.html">Home</a>
-    <a href="index-programas.html">Programas</a>
-    <a href="index-dona.html">Dona</a>
-    <a href="index-app.html">App</a>
+    <!-- CURVA VERDE + OFICINAS -->
+    <div class="green-curve">
+        <div class="offices">
 
-            </nav>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-tiktok"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+            <div class="office">
+                <h3>Oficina 1</h3>
+                <p>📞 +447473997091</p>
+                <p>📧 sybexdesigns@gmail.com</p>
+                <p>📍 2068 Boulevard Henri – Bourassa Est</p>
             </div>
-            <p class="footer-reserved">All Rights Reserved</p>
+
+            <div class="office">
+                <h3>Oficina 2</h3>
+                <p>📞 +447473997091</p>
+                <p>📧 sybexdesigns@gmail.com</p>
+                <p>📍 2068 Boulevard Henri – Bourassa Est</p>
+            </div>
+
+            <div class="office">
+                <h3>Oficina 3</h3>
+                <p>📞 +447473997091</p>
+                <p>📧 sybexdesigns@gmail.com</p>
+                <p>📍 2068 Boulevard Henri – Bourassa Est</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Logo + texto -->
+            <div class="footer-left">
+            <img src="./img inicio/logo.png" alt="Logo ECO" class="footer-logo">
+
+            <p class="footer-desc">Somos movimiento en defensa de la vida.</p>
+
+            <p class="footer-copy">© Áreas. 2025</p>
+            </div>
+
+            <!-- Navegación -->
+            <nav class="footer-nav">
+            <a href="index-inicio.html">Home</a>
+            <a href="index-programas.html">Programas</a>
+            <a href="index-dona.html">Doná</a>
+            <a href="index-app.html">App</a>
+            </nav>
+
+            <!-- Redes sociales -->
+            <div class="footer-social">
+            <a href="#"><img src="./img inicio/instagram.png" alt="Instagram" width="50"></a>
+            <a href="#"><img src="./img inicio/facebook.png" alt="Facebook" width="50"></a>
+            <a href="#"><img src="./img inicio/LinkedIn.png" alt="LinkedIn" width="50"></a>
+            <a href="#"><img src="./img inicio/tiktok.png" alt="TikTok" width="50"></a>
+            <a href="#"><img src="./img inicio/youtube.png" alt="YouTube" width="50"></a>
+
+            <p class="rights">All Rights Reserved</p>
+            </div>
+
         </div>
     </footer>
 
