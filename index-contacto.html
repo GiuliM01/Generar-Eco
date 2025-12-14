@@ -9,6 +9,8 @@
     <title>Contacto | Generar ECO</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="./form-contacto.js"></script>
+
 
 </head>
 <body>
@@ -91,26 +93,43 @@
         </div>
 
 
-        <form class="contact-form">
+    <form class="contact-form">
 
         <label>Nombre Completo:</label>
-        <input type="text" placeholder="Nombre Completo">
+        <input type="text" placeholder="Nombre Completo" required>
+        <small class="error-msg"></small>
 
         <label>Email:</label>
-        <input type="email" placeholder="Email">
+        <input type="email" placeholder="Email" required>
+        <small class="error-msg"></small>
 
         <label>Organización (Opcional):</label>
-        <input type="text" placeholder="Organización (Opcional)">
+        <select>
+            <option value="">Seleccioná una opción</option>
+            <option>Empresa</option>
+            <option>ONG</option>
+            <option>Institución educativa</option>
+            <option>Persona particular</option>
+        </select>
 
-        <label>Motivo de contacto (HACER LISTADO):</label>
-        <input type="text" placeholder="Motivo de contacto">
+        <label>Motivo de contacto:</label>
+        <select required>
+            <option value="">Seleccioná un motivo</option>
+            <option>Donaciones</option>
+            <option>Voluntariado</option>
+            <option>Alianzas</option>
+            <option>Educación ambiental</option>
+            <option>Otro</option>
+        </select>
+        <small class="error-msg"></small>
 
-        <label>Message:</label>
-        <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+        <label>Mensaje:</label>
+        <textarea placeholder="Escribí tu mensaje..." required></textarea>
+        <small class="error-msg"></small>
 
         <button type="submit" class="submit-btn">Enviar</button>
+    </form>
 
-        </form>
 
     </section>
 

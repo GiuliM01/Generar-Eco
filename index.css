@@ -597,7 +597,6 @@ a {
 .left-img img {
     width: 350px;
     height: 350px;
-    object-fit: cover;
     border-radius: 35px;
 }
 
@@ -649,6 +648,29 @@ a {
     resize: none;
 }
 
+/* SELECTS */
+
+.contact-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 40px;
+    border: 2px solid #A88A57;
+    background: #f4f4f4;
+    font-size: 16px;
+    outline: none;
+    appearance: none;       /* saca estilo default */
+    cursor: pointer;
+}
+
+/* Flechita personalizada (opcional) */
+.contact-form select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%23A88A57' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 14px;
+}
+
+
 /* PLACEHOLDER */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
@@ -681,6 +703,12 @@ a {
     background: #6AA400;
 }
 
+.error-msg {
+    color: #d9534f;
+    font-size: 0.8rem;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
 
 /* CURVA VERDE */
 .green-curve {
