@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8BC34A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#689F38;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo con bordes redondeados -->
+  <rect x="10" y="10" width="380" height="180" rx="30" ry="30" fill="url(#greenGradient)"/>
+  
+  <!-- Icono de señal WiFi/ondas -->
+  <g transform="translate(320, 40)">
+    <path d="M 0,0 Q 10,-10 20,0" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M -5,8 Q 10,-5 25,8" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M -10,16 Q 10,0 30,16" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Texto "Generar" -->
+  <text x="40" y="80" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="white">
+    Generar
+  </text>
+  
+  <!-- Texto "ECO" -->
+  <text x="40" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="white">
+    ECO
+  </text>
+  
+  <!-- Detalle: pequeña hoja en la "O" -->
+  <g transform="translate(195, 115)">
+    <ellipse cx="0" cy="0" rx="3" ry="6" fill="#C5E1A5" transform="rotate(-30)"/>
+  </g>
+</svg>
