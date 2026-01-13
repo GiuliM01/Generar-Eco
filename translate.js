@@ -77,7 +77,7 @@ const lang = {
     // FOOTER
     "footer.desc": "Somos movimiento en defensa de la vida.",
     "footer.copy": "© Áreas. 2025",
-    "footer.home": "Home",
+    "footer.home": "Inicio",
     "footer.prog": "Programas",
     "footer.dona": "Doná",
     "footer.app": "App",
