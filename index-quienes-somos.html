@@ -13,6 +13,29 @@
 </head>
 <body>
 
+    <style>
+    .dropdown-menu {
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border: none;
+        padding: 10px;
+    }
+    
+    .dropdown-item {
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin: 5px 0;
+        transition: all 0.3s ease;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #c7dd58;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-#f4f4f4 py-3 ">
     <div class="container">
 
@@ -35,9 +58,38 @@
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-inicio.html">Inicio</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="index-programas.html">Programas</a>
-            </li>
+            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Programas
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <a class="dropdown-item" href="index-programa3.html">
+                <strong>Educación ambiental</strong><br>
+                <small>Para escuelas y comunidades</small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-programa1.html">
+                <strong>Agricultura regenerativa</strong><br>
+                <small>Producción sustentable</small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-programa4.html">
+                <strong>Reforestación</strong><br>
+                <small>Con especies nativas</small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-programa2.html">
+                <strong>Alianzas sociales</strong><br>
+                <small>Para organizaciones</small>
+            </a>
+        </li>
+    </ul>
+</li>
+            
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-dona.html">Doná</a>
             </li>
@@ -55,8 +107,6 @@
             <button class="btn btn-link text-secondary p-0">INGLÉS</button>
             </div>
 
-            <!-- BOTÓN VERDE 
-            
             <button
             class="btn"
             style="
@@ -65,10 +115,10 @@
                 padding: 6px 18px;
                 color: white;
                 font-weight: 600; ">
-            Soy empresa
+            Blog
             </button>
-            -->
 
+            
         </div>
         </div>
     </div>
@@ -125,7 +175,7 @@
                 <h3>Juana Cañedo</h3>
                 <p>Rol en la ONG</p>
                 <p>"Subamos personas, negocios y organizaciones."</p>
-                <p>Capitán humano.</p>
+                <p style="font-weight: bold;">Capitán humano.</p>
             </div>
 
             <div class="team-member">
@@ -135,7 +185,7 @@
                 <h3>Juana Cañedo</h3>
                 <p>Rol en la ONG</p>
                 <p>"Subamos personas, negocios y organizaciones."</p>
-                <p>Capitán humano.</p>
+                <p style="font-weight: bold;">Capitán humano.</p>
             </div>
 
             <div class="team-member">
@@ -145,7 +195,7 @@
                 <h3>Juana Cañedo</h3>
                 <p>Rol en la ONG</p>
                 <p>"Subamos personas, negocios y organizaciones."</p>
-                <p>Capitán humano.</p>
+                <p style="font-weight: bold;">Capitán humano.</p>
             </div>
 
             <div class="team-member">
@@ -155,7 +205,7 @@
                 <h3>Juana Cañedo</h3>
                 <p>Rol en la ONG</p>
                 <p>"Subamos personas, negocios y organizaciones."</p>
-                <p>Capitán humano.</p>
+                <p style="font-weight: bold;">Capitán humano.</p>
             </div>
 
         </div>
@@ -256,3 +306,6 @@
 
         </div>
     </footer>
+
+</body>
+</html>
