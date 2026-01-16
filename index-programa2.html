@@ -319,39 +319,89 @@
     </form>
     </section>
 
-    <footer class="footer">
-        <div class="footer-container">
+        <div class="left-side">
+            <h2 class="title">
+                Completá tus datos y <br>
+                te respondemos a <br>
+                la brevedad
+            </h2>
 
-            <!-- Logo + texto -->
-            <div class="footer-left">
-            <img src="./img inicio/logo.png" alt="Logo ECO" class="footer-logo">
+    <div class="left-img">
+        <img src="./img/Contacto/Web Contacto .png" alt="Imagen de contacto">
+        </div>
+    </div>
 
-            <p class="footer-desc">Somos movimiento en defensa de la vida.</p>
+    <form class="contact-form">
 
-            <p class="footer-copy">© Áreas. 2025</p>
-            </div>
+        <label>Nombre Completo:</label>
+        <input type="text" placeholder="Nombre Completo" required>
+        <small class="error-msg"></small>
 
-            <!-- Navegación -->
-            <nav class="footer-nav">
+        <label>Email:</label>
+        <input type="email" placeholder="Email" required>
+        <small class="error-msg"></small>
+
+        <label>Organización (Opcional):</label>
+        <select>
+            <option value="">Seleccioná una opción</option>
+            <option>Empresa</option>
+            <option>ONG</option>
+            <option>Institución educativa</option>
+            <option>Persona particular</option>
+        </select>
+
+        <label>Motivo de contacto:</label>
+        <select required>
+            <option value="">Seleccioná un motivo</option>
+            <option>Donaciones</option>
+            <option>Voluntariado</option>
+            <option>Alianzas</option>
+            <option>Educación ambiental</option>
+            <option>Otro</option>
+        </select>
+        <small class="error-msg"></small>
+
+        <label>Mensaje:</label>
+        <textarea placeholder="Escribí tu mensaje..." required></textarea>
+        <small class="error-msg"></small>
+
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+    </section>
+
+    <footer class="custom-footer">
+    <div class="footer-wrapper">
+        <div class="footer-brand">
+            <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" class="footer-logo">
+            <p class="f-text">Somos movimiento en defensa de la vida.</p>
+        </div>
+
+        <nav class="nav-box">
             <a href="index-inicio.html">Home</a>
             <a href="index-programas.html">Programas</a>
             <a href="index-dona.html">Doná</a>
             <a href="index-app.html">App</a>
-            </nav>
+            <a href="index-contacto.html">Contacto</a>
+            <a href="index-sumate.html">Voluntariado</a>
+        </nav>
 
-            <!-- Redes sociales -->
-            <div class="footer-social">
-            <a href="#"><img src="./img/Footer/instagram.png" alt="Instagram" width="50"></a>
-            <a href="#"><img src="./img/Footer/facebook.png" alt="Facebook" width="50"></a>
-            <a href="#"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn" width="50"></a>
-            <a href="#"><img src="./img/Footer/tiktok.png" alt="TikTok" width="50"></a>
-            <a href="#"><img src="./img/Footer/youtube.png" alt="YouTube" width="50"></a>
-
-            <p class="rights">All Rights Reserved</p>
+        <div class="footer-box social-box">
+            <div class="social-icons">
+                <a href="#"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
+                <a href="#"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
+                <a href="#"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
             </div>
-
         </div>
-    </footer>
+
+        <div class="footer-bottom-text">
+            <p class="f-sub">© Áreas.</p>
+            <p class="f-sub">2025</p>
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
