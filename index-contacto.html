@@ -6,22 +6,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Contacto | Generar ECO</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="./form-contacto.js"></script>
 
 
+<style>
+    .dropdown-menu {
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border: none;
+        padding: 10px;
+    }
+    
+    .dropdown-item {
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin: 5px 0;
+        transition: all 0.3s ease;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #c7dd58;
+        color: white;
+    }
+</style>
+
+
 </head>
 <body>
-
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-#f4f4f4 py-3 ">
     <div class="container">
 
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="./img inicio/logo.png" alt="Logo ECO" style="width: 80px;"/></a>
+        <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
 
         <!-- BOTÓN MOBILE -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -36,42 +57,65 @@
             class="navbar-nav mx-auto bg-white shadow-sm px-4 py-2 rounded-pill gap-3"
             style="font-weight: 500;">
             <li class="nav-item">
-            <a class="nav-link text-dark" href="index-inicio.html">Inicio</a>
+            <a class="nav-link text-dark" href="index-inicio.html" data-t="nav.inicio">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-t="nav.programas">
+        Programas
+    </a>
+    <ul class="dropdown-menu">
+        
+        <li>
+            <a class="dropdown-item" href="index-educacion-ambiental.html">
+                <strong data-t="drop.edu">Educación ambiental</strong><br>
+                <small data-t="drop.edu.sub"></small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-desarrollo-empresarial.html">
+                <strong data-t="drop.agri">Desarrollo Empresarial</strong><br>
+                <small data-t="drop.agri.sub"></small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-reserva.html">
+                <strong data-t="drop.ref">Reserva Don Silvestre</strong><br>
+                <small data-t="drop.ref.sub"></small>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" href="index-ecoturismo.html">
+                <strong data-t="drop.ali">Ecoturismo</strong><br>
+                <small data-t="drop.ali.sub"></small>
+            </a>
+        </li>
+        </ul>
+    </li>
+            
+            <li class="nav-item">
+            <a class="nav-link text-dark" href="index-dona.html" data-t="nav.dona">Doná</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link text-dark" href="index-programas.html">Programas</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="index-dona.html">Doná</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="index-app.html">App</a>
+            <a class="nav-link text-dark" href="index-app.html" data-t="nav.app">App</a>
             </li>
         </ul>
 
         <!-- DERECHA -->
         <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
 
-            <!-- IDIOMAS -->
-            <div class="d-flex gap-2">
-            <button class="btn btn-link text-secondary p-0">ESPAÑOL</button>
-            <button class="btn btn-link text-secondary p-0">INGLÉS</button>
-            </div>
+        <!-- IDIOMAS -->
+        <div class="d-flex gap-2">
+            <button class="btn-idioma" data-lang="es">ESPAÑOL</button>
+            <span class="text-secondary">|</span>
+            <button class="btn-idioma" data-lang="en">ENGLISH</button>
+        </div>
 
-            <!-- BOTÓN VERDE 
-        
-            class="btn"
-            style="
-                background-color: #c7dd58;
-                border-radius: 20px;
-                padding: 6px 18px;
-                color: white;
-                font-weight: 600; ">
-            Soy empresa
-            </button>
-
-            -->
-
+        <!--BOTÓN VERDE -->  
+          <button class="btn-blog" data-t="nav.blog">
+            BLOG
+            </button>  
+            
+            
         </div>
         </div>
     </div>
