@@ -1590,13 +1590,8 @@ body, html {
     }
     
     .contact-form {
-<<<<<<< HEAD
         width: 100%;
         max-width: 500px;
-=======
-    max-width: 90%;
-    margin: 0 auto;
->>>>>>> 2f21ed0e01e382174b5cb74b02e3180ba06f1754
     }
     
     .title {
@@ -1958,29 +1953,7 @@ body, html {
     margin: 60px 0 40px;
 }
 
-<<<<<<< HEAD
 /* ========== 6. CARDS GRANDES DE DONACIÓN ========== */
-=======
-@media (max-width: 600px) {
-    .impacto-grid-3 {
-        grid-template-columns: 1fr;
-    }
-
-    .impact{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .impact h2{
-        font-size: 2.2rem !important;
-        line-height: 1.25;
-    }
-}
-
-
-
-/* --- SECCIÓN 4: FORMAS DE DONAR (Tarjetas grandes) --- */
->>>>>>> 2f21ed0e01e382174b5cb74b02e3180ba06f1754
 
 .cards-grid-2 {
     display: grid;
@@ -4835,9 +4808,6 @@ button.btn-blog:focus {
         font-size: 0.9rem;
         margin-bottom: 25px;
     }
-}
-
-        font-size: 1.8rem;
 }
 
 /*------------------------------------------PROGRAMAS 3 -----------------------------*/
