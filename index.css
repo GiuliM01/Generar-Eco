@@ -2510,7 +2510,7 @@ main {
 
 /*--------------IMPACTO ESPERADO---------*/
 
-.impacto-grid {
+/*.impacto-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
@@ -2535,7 +2535,7 @@ main {
     text-shadow: 0 2px 6px rgba(0,0,0,0.4);
     margin: 0;
     font-size: 18px;
-}
+}*/
 
 @media (max-width: 900px) {
     .impacto-grid {
@@ -2934,7 +2934,7 @@ main {
 .impact {
     max-width: 1200px;
     margin: auto;
-    padding: 80px 20px;
+    padding: 20px 20px;
 }
 
 .impact h2 {
@@ -3058,7 +3058,7 @@ main {
 .history {
     max-width: 1200px;
     margin: auto;
-    padding: 60px 20px;
+    padding: 20px 20px;
 }
 
 .history-content {
@@ -3593,6 +3593,39 @@ a {
 }
 
 }
+
+@media (max-width: 767px) {
+
+    .row-equal-height {
+    justify-content: center;
+}
+
+    .col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+    .card-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .row-equal-height {
+    justify-content: center;
+}
+
+    .card-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
 .navbar {
     top: 0;
@@ -5078,18 +5111,18 @@ button.btn-blog:focus {
 }
 
 .community-container h2 {
-    color: #b6d43a; 
-    font-size: 45px;
+    font-size: 3em;
     font-weight: 700;
-    margin-bottom: 16px;
+    color: #7BBF32;
+    margin-bottom: 20px;
 }
 
 .community-container p {
-    color: #6b6b6b;
-    font-size: 15px;
-    line-height: 1.9;
-    max-width: 750px;
-    margin: 0 auto;
+    font-size: 1.15rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    font-weight: 400;
 }
 
 @media (max-width: 992px) {
