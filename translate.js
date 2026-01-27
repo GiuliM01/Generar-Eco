@@ -155,7 +155,7 @@ const lang = {
     
     
     // FOOTER
-    "footer.desc": "Somos movimiento en defensa de la vida.",
+    "footer.desc": "Cuidamos la naturaleza, inspiramos personas.",
     "footer.copy": "© Áreas. 2025",
     "footer.home": "Inicio",
     "footer.prog": "Programas",
@@ -323,7 +323,7 @@ const lang = {
     
 
     // FOOTER
-    "footer.desc": "We are movement in defense of life.",
+    "footer.desc": "Caring for nature, inspiring people.",
     "footer.copy": "© Areas. 2025",
     "footer.home": "Home",
     "footer.prog": "Programs",

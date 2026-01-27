@@ -8,7 +8,6 @@
     
     <link rel="stylesheet" href="index.css">
     
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
     .dropdown-menu {
@@ -41,7 +40,7 @@
 
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
+        <img src="./img-inicio/logo.png" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
 
         <!-- BOTÓN MOBILE -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -95,9 +94,9 @@
         <a class="nav-link text-dark" href="index-dona.html" data-t="nav.dona">Doná</a>
     </li>
     
-    <li class="nav-item">
+    <!--<li class="nav-item">
         <a class="nav-link text-dark" href="index-app.html" data-t="nav.app">App</a>
-    </li>
+    </li>-->
     
 </ul>
         <!-- DERECHA -->
@@ -110,12 +109,12 @@
             <button class="btn-idioma" data-lang="en">ENGLISH</button>
         </div>
 
-            <!-- Boton blog--> 
+            <!-- Boton blog
 
         <a href="https://generareco.org.ar/#blog">
           <button class="btn-blog" data-t="nav.blog">
             BLOG
-            </button> 
+            </button> -->
         </a> 
             
             
@@ -181,7 +180,7 @@
     </section>
 
 
-    <h2 class="section-title" data-t="dona.forms.title" style="text-align: center;">Formas de donar</h2>
+    <h2 class="section-title" data-t="dona.forms.title" style="text-align: center; color: #7BBF32 !important;">Formas de donar</h2>
     
     <div class="cards-grid-2">
         
@@ -262,15 +261,15 @@
     <footer class="custom-footer">
     <div class="footer-wrapper">
         <div class="footer-brand">
-            <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" class="footer-logo">
-            <p class="f-text" data-t="footer.desc">Somos movimiento en defensa de la vida.</p>
+            <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
+            <p class="f-text" data-t="footer.desc">Cuidamos la naturaleza, inspiramos personas.</p>
         </div>
 
         <nav class="nav-box">
             <a href="index-inicio.html" data-t="footer.home">Home</a>
             <a href="index-programas.html" data-t="footer.prog">Programas</a>
             <a href="index-dona.html" data-t="footer.dona">Doná</a>
-            <a href="index-app.html" data-t="footer.app">App</a>
+            <!--<a href="index-app.html" data-t="footer.app">App</a>-->
             <a href="index-contacto.html" data-t="footer.contact">Contacto</a>
             <a href="index-sumate.html" data-t="footer.volunteer">Voluntariado</a>
         </nav>
@@ -299,22 +298,28 @@
  
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Script para manejar los clics en los botones de donación
-            const donateButtons = document.querySelectorAll('.btn-donate-link, .btn-donate-footer');
+    document.addEventListener('DOMContentLoaded', function() {
+        // 1. Buscamos todos los botones de donación en la página
+        const donateButtons = document.querySelectorAll('.btn-donate-link, .btn-donate-footer');
 
-            donateButtons.forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    console.log(`Redirigiendo a la página de pago para: ${button.textContent.trim()}`);
-                    // Aquí se agregaría la lógica para redirigir al portal de pagos
-                    // window.location.href = '/checkout';
-                });
+        donateButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                // 2. Evitamos que el navegador haga el salto automático por defecto
+                e.preventDefault();
+
+                // 3. AQUÍ VA TU LINK: Reemplaza el texto entre comillas por tu link de pago real
+                const linkDePago = "https://donaronline.org/generar-eco/sumate-a-generar-eco"; 
+
+                console.log(`Redirigiendo a la página de pago para: ${button.textContent.trim()}`);
+
+                // 4. Esta es la línea que hace la magia de saltar a la otra web
+                window.location.href = linkDePago;
             });
-            
-            console.log('Página de Donaciones cargada y lista.');
         });
-    </script>
+        
+        console.log('Sistema de donaciones activado correctamente.');
+    });
+</script>
     
 </body>
 </html>
