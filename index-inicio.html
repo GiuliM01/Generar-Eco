@@ -40,7 +40,7 @@
 
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
+        <img src="./img-inicio/logo.png" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
 
         <!-- BOTÓN MOBILE -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -93,9 +93,10 @@
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-dona.html" data-t="nav.dona">Doná</a>
             </li>
+           <!--seccion app comentada para dar de alata mas adekante
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-app.html" data-t="nav.app">App</a>
-            </li>
+            </li>-->
         </ul>
 
         <!-- DERECHA -->
@@ -108,12 +109,12 @@
             <button class="btn-idioma" data-lang="en">ENGLISH</button>
         </div>
 
-        <!--Boton blog -->  
+        <!--Boton blog   
         <a href="https://generareco.org.ar/#blog">
           <button class="btn-blog" data-t="nav.blog">
             BLOG
             </button> 
-        </a> 
+        </a> -->
             
             
         </div>
@@ -138,18 +139,24 @@
             <div class="carousel-blur-box">
             <h5 data-t="car1.title">Reserva Natural Don Silvestre</h5>
             <p draggable="car1.text"> Cuidamos la Selva Atlántica junto a la comunidad, aprendiendo y actuando en un corredor biológico único.</p>
-            <button class="btn-carousel" data-t="car1.btn">Sumate</button>
+            <a href="index-reserva.html">
+              <button class="btn-carousel" data-t="car1.btn">Sumate</button>
+            </a>
             </div>
             </div>
         </div>
 
         <div class="carousel-item">
-            <img src="./img/Home/WEB BANNER 2.png" class="d-block w-100" alt="..." />
+            <img src="./img/Home/WEB BANNER 2.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
             <div class="carousel-blur-box">
-            <h5 data-t="car2.title"> Ambiente que educa</h5>
+                <a href="index-educacion-ambiental.html">
+                  <h5 data-t="car2.title"> Ambiente que educa</h5>
+                
             <p data-t="car2.text">Una propuesta de educación ambiental y neurociencia que acompaña el bienestar y los aprendizajes en las distintas etapas escolares.</p>
-            <button class="btn-carousel" data-t="car2.btn">Reservá tu charla</button>
+            <a href="index-educacion-ambiental.html">
+               <button class="btn-carousel" data-t="car2.btn">Reservá tu charla</button>
+            </a>
             </div>
             </div>
         </div>
@@ -158,9 +165,13 @@
             <img src="./img/Home/WEB BANNER 3.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
             <div class="carousel-blur-box">
-            <h5 data-t="car3.title">Jornadas de team building con propósito </h5>
+                
+                  <h5 data-t="car3.title">Jornadas de team building con propósito </h5>
+                
             <p data-t="car3.text">Jornadas de desarrollo empresarial sustentable que fortalecen vínculos, promueven el bienestar y conectan a los equipos con la naturaleza, tanto en entornos naturales como en la oficina.</p>
-            <button class="btn-carousel" data-t="car3.btn">Ver más</button>
+            <a href="index-desarrollo-empresarial.html">
+              <button class="btn-carousel" data-t="car3.btn">Ver más</button>
+            </a>
             </div>
             </div>
         </div>
@@ -185,7 +196,7 @@
             <p data-t="about.text"> Buscamos inspirar hábitos conscientes, fortalecer comunidades y recuperar 
             ecosistemas para que todos —personas, flora y fauna— vivan mejor. </p>
 
-            <a href="index-quienes-somos.html"></a>
+            <a href="index-quienes-somos.html">
             <button class="about-btn" data-t="about.btn">Conocé más</button>
             </a>
         </div>
@@ -231,7 +242,7 @@
                 </div>
             <div class="card-body">
                 <p class="card-text" data-t="card1.text">Educación ambiental para escuelas y comunidades</p>
-                <a href="#" class="btn-card-outline" data-t="card1.btn">Participá</a>
+                <a href="index-educacion-ambiental.html" class="btn-card-outline" data-t="card1.btn">Participá</a>
             </div>
             </div>
         </div>
@@ -243,7 +254,7 @@
                 </div>
             <div class="card-body">
                 <p class="card-text" data-t="card2.text">Agricultura regenerativa y producción sustentable</p>
-                <a href="#" class="btn-card-outline" data-t="card2.btn">Más información</a>
+                <a href="index-ecoturismo.html" class="btn-card-outline" data-t="card2.btn">Más información</a>
             </div>
             </div>
         </div>
@@ -255,7 +266,7 @@
                 </div>
             <div class="card-body">
                 <p class="card-text" data-t="card3.text">Reforestación con especies nativas y restauración ecológica </p>
-                <a href="#" class="btn-card-outline" data-t="card3.btn">Más información</a>
+                <a href="index-reserva.html" class="btn-card-outline" data-t="card3.btn">Más información</a>
             </div>
             </div>
         </div>
@@ -267,13 +278,13 @@
                 </div>
             <div class="card-body">
                 <p class="card-text" data-t="card4.text">Alianzas sociales y ambientales para organizaciones</p>
-                <a href="#" class="btn-card-outline" data-t="card4.btn">Más información</a>
+                <a href="index-desarrollo-empresarial.html" class="btn-card-outline" data-t="card4.btn">Más información</a>
             </div>
             </div>
         </div>
 
     </section>
-
+<!--seccion app 
     <section class="qr-section container">
         <div class="row align-items-center justify-content-center">
             
@@ -296,7 +307,7 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="join-section">
         <h2 class="join-title" data-t="join.title">
@@ -308,24 +319,25 @@
             de reforestación o impulsar acciones ambientales en tu comunidad.
             Cada gesto suma y multiplica el impacto.
         </p>
-
+<a href="index-sumate.html">
         <button class="btn-green" data-t="join.btn">
             Súmate al movimiento
         </button>
+</a>
     </section>
 
     <footer class="custom-footer">
     <div class="footer-wrapper">
         <div class="https://github.com/Walt-exe/Generar-ECO/pull/12/conflict?name=index-inicio.html&ancestor_oid=fff14f6f2fa51f9a1f6d792f1cd90c839fbb3331&base_oid=7f07b1f4be886da3b49889a428b41050b0288fc7&head_oid=c37e84dd62f10b12fa0b83d64bf618bc9d57e8e8footer-brand">
-            <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" class="footer-logo">
-            <p class="f-text" data-t="footer.desc">Somos un movimiento en defensa de la vida.</p>
+            <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
+            <p class="f-text" data-t="footer.desc">Cuidamos la naturaleza, inspiramos personas.</p>
         </div>
 
         <nav class="nav-box">
             <a href="index-inicio.html" data-t="footer.home">Home</a>
             <a href="index-programas.html" data-t="footer.prog">Programas</a>
             <a href="index-dona.html" data-t="footer.dona">Doná</a>
-            <a href="index-app.html" data-t="footer.app">App</a>
+         <!--<a href="index-app.html" data-t="footer.app">App</a>-->
             <a href="index-contacto.html" data-t="footer.contact">Contacto</a>
             <a href="index-sumate.html" data-t="footer.volunteer">Voluntariado</a>
         </nav>
