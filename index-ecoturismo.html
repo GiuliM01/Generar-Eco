@@ -39,7 +39,7 @@
 
         <!-- LOGO -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
+        <img src="./img-inicio/logo.png" alt="Logo Generar ECO" style="width: 100px; height: auto;"/></a>
 
         <!-- BOTÓN MOBILE -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -63,7 +63,7 @@
     <ul class="dropdown-menu">
         <li>
             <a class="dropdown-item" href="index-educacion-ambiental.html">
-                <strong>Educación ambiental</strong><br>
+                <strong>Educación Ambiental</strong><br>
                 <small></small>
             </a>
         </li>
@@ -90,9 +90,10 @@
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-dona.html">Doná</a>
             </li>
+            <!--
             <li class="nav-item">
             <a class="nav-link text-dark" href="index-app.html">App</a>
-            </li>
+            </li> -->
         </ul>
 
         <!-- DERECHA -->
@@ -100,8 +101,9 @@
 
             <!-- IDIOMAS -->
             <div class="d-flex gap-2">
-            <button class="btn btn-link text-secondary p-0">ESPAÑOL</button>
-            <button class="btn btn-link text-secondary p-0">INGLÉS</button>
+                <button class="btn-idioma" data-lang="es">ESPAÑOL</button>
+                <span class="text-secondary">|</span>
+                <button class="btn-idioma" data-lang="en">ENGLISH</button>
             </div>
             <!--
             <button
@@ -291,26 +293,39 @@
     <footer class="custom-footer">
     <div class="footer-wrapper">
         <div class="footer-brand">
-            <img src="./img-inicio/generar_eco_logo.svg" alt="Logo Generar ECO" class="footer-logo">
-            <p class="f-text">Somos movimiento en defensa de la vida.</p>
+            <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
+            <p class="f-text">Cuidamos la naturaleza, inspiramos personas.</p>
         </div>
 
         <nav class="nav-box">
             <a href="index-inicio.html">Home</a>
-            <a href="index-programas.html">Programas</a>
+            
+            <div class="dropdown footer-dropdown">
+            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Programas
+            </a>
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index-educacion-ambiental.html">Educación Ambiental</a></li>
+                <li><a class="dropdown-item" href="index-desarrollo-empresarial.html">Desarrollo Empresarial</a></li>
+                <li><a class="dropdown-item" href="index-reserva.html">Reserva Don Silvestre</a></li>
+                <li><a class="dropdown-item" href="index-ecoturismo.html">Ecoturismo</a></li>
+            </ul>
+            </div>
+
             <a href="index-dona.html">Doná</a>
-            <a href="index-app.html">App</a>
+            <!-- <a href="index-app.html">App</a> -->
             <a href="index-contacto.html">Contacto</a>
             <a href="index-sumate.html">Voluntariado</a>
         </nav>
 
         <div class="footer-box social-box">
             <div class="social-icons">
-                <a href="#"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
-                <a href="#"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
-                <a href="#"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
-                <a href="#"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
+                <a href="https://www.instagram.com/generareco/"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/generareco"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
+                <a href=" https://www.linkedin.com/company/generar-eco/"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
+                <a href="https://www.tiktok.com/@generareco"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
+                <a href="https://www.youtube.com/channel/UCcZfqbnoS6v1gOZf2pVWTgA"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
             </div>
         </div>
 
