@@ -195,7 +195,37 @@ const lang = {
 "qs.testimonial.quote": "Hemos realizado una actividad de plantación de especies nativas desarrollando un biocorredor. Es una actividad muy linda y muy importante para la sustentabilidad ambiental, dado que estamos en un entorno industrial.",
 "qs.testimonial.author": "Federico Colombo, Gerente de Planta VASA Los Cardales.",
 
+// ============ TRADUCCIONES PÁGINA SÚMATE ============
 
+// ====== ESPAÑOL (agregar dentro del objeto es: { ... }) ======
+
+// Página Súmate - Hero
+"sumate.hero.title": "Sumarse también es cuidar",
+"sumate.hero.text1": "En Generar Eco trabajamos juntos para cuidar la naturaleza y fortalecer a las comunidades.",
+"sumate.hero.text2": "Podés sumarte y ser parte de acciones con impacto real.",
+
+// Página Súmate - Comunidad
+"sumate.community.title": "En comunidad",
+"sumate.community.text": "En Generar Eco creemos que cada aporte cuenta. Por eso proponemos distintas formas de involucrarse y transformar ese compromiso en acciones concretas que fortalecen el ambiente y a las comunidades.",
+
+// Página Súmate - Cards
+"sumate.card1.text": "SER VOLUNTARIO/A",
+"sumate.card1.btn": "Participá",
+
+"sumate.card2.text": "ESCUELAS QUE CUIDAN",
+"sumate.card2.btn": "Conocé más",
+
+"sumate.card3.text": "EMPRESAS CON IMPACTO",
+"sumate.card3.btn": "Sumate",
+
+// Página Súmate - Formulario (motivos específicos)
+"sumate.form.reason.label": "Motivo de contacto:",
+"sumate.form.reason.default": "Seleccioná un motivo",
+"sumate.form.reason.opt1": "Donaciones",
+"sumate.form.reason.opt2": "Voluntariado",
+"sumate.form.reason.opt3": "Alianzas",
+"sumate.form.reason.opt4": "Educación ambiental",
+"sumate.form.reason.opt5": "Otro",
     
     
     // FOOTER
@@ -405,6 +435,39 @@ const lang = {
 
 "qs.testimonial.quote": "We carried out an activity to plant native species, developing a biocorridor. It is a very nice and very important activity for environmental sustainability, given that we are in an industrial environment.",
 "qs.testimonial.author": "Federico Colombo, Plant Manager at VASA Los Cardales.",
+
+//======= PAGINA SUMATE ==========
+// ====== INGLÉS (agregar dentro del objeto en: { ... }) ======
+
+// Join Us Page - Hero
+"sumate.hero.title": "Joining is also caring",
+"sumate.hero.text1": "At Generar Eco we work together to care for nature and strengthen communities.",
+"sumate.hero.text2": "You can join and be part of actions with real impact.",
+
+// Join Us Page - Community
+"sumate.community.title": "In community",
+"sumate.community.text": "At Generar Eco we believe that every contribution counts. That's why we propose different ways to get involved and transform that commitment into concrete actions that strengthen the environment and communities.",
+
+// Join Us Page - Cards
+"sumate.card1.text": "BECOME A VOLUNTEER",
+"sumate.card1.btn": "Participate",
+
+"sumate.card2.text": "CARING SCHOOLS",
+"sumate.card2.btn": "Learn more",
+
+"sumate.card3.text": "COMPANIES WITH IMPACT",
+"sumate.card3.btn": "Join us",
+
+// Join Us Page - Form (specific reasons)
+"sumate.form.reason.label": "Reason for contact:",
+"sumate.form.reason.default": "Select a reason",
+"sumate.form.reason.opt1": "Donations",
+"sumate.form.reason.opt2": "Volunteering",
+"sumate.form.reason.opt3": "Partnerships",
+"sumate.form.reason.opt4": "Environmental education",
+"sumate.form.reason.opt5": "Other",
+
+
 
 
 
