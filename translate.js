@@ -152,6 +152,80 @@ const lang = {
 "app.cta.btn": "Empezá ahora »",
 
 
+// ============ TRADUCCIONES PARA AGREGAR A translate.js ============
+// ESPAÑOL (agregar dentro del objeto es: { ... })
+
+// Página Quienes Somos
+"qs.hero.title": "Regeneramos vida, JUNTOS",
+"qs.hero.text1": "Somos una ONG argentina conformada por profesionales comprometidos con la conservación y restauración de ambientes naturales.",
+"qs.hero.text2": "Promovemos hábitos sostenibles que benefician tanto a las comunidades como a los ecosistemas.",
+
+"qs.how.title": "Cómo lo hacemos",
+"qs.how.text": "Trabajamos juntos para cuidar la naturaleza e inspiramos a las personas a reconectarse con el entorno, comprender su valor y tomar acción para proteger nuestro planeta:",
+
+"qs.mission.title": "Nuestra Misión",
+"qs.mission.text": "Construir una sociedad sostenible donde personas y naturaleza convivan en equilibrio.",
+
+"qs.vision.title": "Nuestra Visión",
+"qs.vision.text": "Conectar a las personas con la naturaleza para conservar y restaurar ambientes.",
+
+"qs.values.title": "Nuestros Valores",
+"qs.values.text": "Compromiso, educación, colaboración y acción para generar un impacto concreto.",
+
+"qs.history.title": "Nuestra Historia",
+
+"qs.bit.title": "Un poco de historia",
+"qs.bit.text": "Generar Eco nació en 2016 para reconectar a las personas con la naturaleza e inspirar su cuidado. Desde entonces, desarrollamos proyectos innovadores basados en educación socioambiental, preservación, restauración ambiental y ecoturismo.",
+"qs.bit.small": "El nombre Generar Eco refleja nuestra esencia: que cada acción resuene y se multiplique.",
+
+"qs.impact.title": "Impacto",
+"qs.impact.card1": "Más participación y compromiso interno",
+"qs.impact.card2": "Equipos sensibilizados y conectados.",
+"qs.impact.card3": "Hábitos sostenibles que perduran.",
+"qs.impact.card4": "Acciones ambientales medibles y redes.",
+"qs.impact.quote": "Nos mostró la importancia de estar en contacto con la naturaleza en el día a día, su vínculo con la neurociencia y nos dejó consejos prácticos para disminuir el estrés. Fue una experiencia muy enriquecedora para todo el equipo.",
+"qs.impact.author": "Jorge Yoyo Riva, CEO & Fundador de Tekudia.",
+
+"qs.transparency.title": "Transparencia y credenciales",
+"qs.transparency.text": "Personas, voluntarios y organizaciones comprometidas hacen posible nuestro trabajo. Juntos impulsamos proyectos que cuidan la naturaleza y fortalecen comunidades, y cada año nuestro impacto crece, transparente y disponible para todos.",
+"qs.transparency.proj1": "Proyecto comunidad Mbya Guaraní de Yriapú",
+"qs.transparency.proj2": "Biocorredor de árboles nativos en Vasa S.A.",
+"qs.transparency.proj3": "Semillas que Educan",
+
+"qs.testimonial.quote": "Hemos realizado una actividad de plantación de especies nativas desarrollando un biocorredor. Es una actividad muy linda y muy importante para la sustentabilidad ambiental, dado que estamos en un entorno industrial.",
+"qs.testimonial.author": "Federico Colombo, Gerente de Planta VASA Los Cardales.",
+
+// ============ TRADUCCIONES PÁGINA SÚMATE ============
+
+// ====== ESPAÑOL (agregar dentro del objeto es: { ... }) ======
+
+// Página Súmate - Hero
+"sumate.hero.title": "Sumarse también es cuidar",
+"sumate.hero.text1": "En Generar Eco trabajamos juntos para cuidar la naturaleza y fortalecer a las comunidades.",
+"sumate.hero.text2": "Podés sumarte y ser parte de acciones con impacto real.",
+
+// Página Súmate - Comunidad
+"sumate.community.title": "En comunidad",
+"sumate.community.text": "En Generar Eco creemos que cada aporte cuenta. Por eso proponemos distintas formas de involucrarse y transformar ese compromiso en acciones concretas que fortalecen el ambiente y a las comunidades.",
+
+// Página Súmate - Cards
+"sumate.card1.text": "SER VOLUNTARIO/A",
+"sumate.card1.btn": "Participá",
+
+"sumate.card2.text": "ESCUELAS QUE CUIDAN",
+"sumate.card2.btn": "Conocé más",
+
+"sumate.card3.text": "EMPRESAS CON IMPACTO",
+"sumate.card3.btn": "Sumate",
+
+// Página Súmate - Formulario (motivos específicos)
+"sumate.form.reason.label": "Motivo de contacto:",
+"sumate.form.reason.default": "Seleccioná un motivo",
+"sumate.form.reason.opt1": "Donaciones",
+"sumate.form.reason.opt2": "Voluntariado",
+"sumate.form.reason.opt3": "Alianzas",
+"sumate.form.reason.opt4": "Educación ambiental",
+"sumate.form.reason.opt5": "Otro",
     
     
     // FOOTER
@@ -318,6 +392,83 @@ const lang = {
 
 "app.cta.text": "We unite technology, community and nature so that anyone can regenerate life while walking. We transform a daily habit into native trees planted where they are most needed.",
 "app.cta.btn": "Start now »",
+
+// ============================================
+// INGLÉS (agregar dentro del objeto en: { ... })
+
+// About Us Page
+"qs.hero.title": "We regenerate life, TOGETHER",
+"qs.hero.text1": "We are an Argentine NGO made up of professionals committed to the conservation and restoration of natural environments.",
+"qs.hero.text2": "We promote sustainable habits that benefit both communities and ecosystems.",
+
+"qs.how.title": "How we do it",
+"qs.how.text": "We work together to care for nature and inspire people to reconnect with the environment, understand its value and take action to protect our planet:",
+
+"qs.mission.title": "Our Mission",
+"qs.mission.text": "Build a sustainable society where people and nature coexist in balance.",
+
+"qs.vision.title": "Our Vision",
+"qs.vision.text": "Connect people with nature to conserve and restore environments.",
+
+"qs.values.title": "Our Values",
+"qs.values.text": "Commitment, education, collaboration and action to generate concrete impact.",
+
+"qs.history.title": "Our History",
+
+"qs.bit.title": "A bit of history",
+"qs.bit.text": "Generar Eco was born in 2016 to reconnect people with nature and inspire its care. Since then, we have developed innovative projects based on socio-environmental education, preservation, environmental restoration and ecotourism.",
+"qs.bit.small": "The name Generar Eco reflects our essence: that every action resonates and multiplies.",
+
+"qs.impact.title": "Impact",
+"qs.impact.card1": "More participation and internal commitment",
+"qs.impact.card2": "Sensitized and connected teams.",
+"qs.impact.card3": "Sustainable habits that endure.",
+"qs.impact.card4": "Measurable environmental actions and networks.",
+"qs.impact.quote": "It showed us the importance of being in contact with nature on a daily basis, its link with neuroscience and gave us practical tips to reduce stress. It was a very enriching experience for the whole team.",
+"qs.impact.author": "Jorge Yoyo Riva, CEO & Founder of Tekudia.",
+
+"qs.transparency.title": "Transparency and credentials",
+"qs.transparency.text": "Committed people, volunteers and organizations make our work possible. Together we drive projects that care for nature and strengthen communities, and each year our impact grows, transparent and available to all.",
+"qs.transparency.proj1": "Mbya Guaraní community project in Yriapú",
+"qs.transparency.proj2": "Native tree biocorridor at Vasa S.A.",
+"qs.transparency.proj3": "Seeds that Educate",
+
+"qs.testimonial.quote": "We carried out an activity to plant native species, developing a biocorridor. It is a very nice and very important activity for environmental sustainability, given that we are in an industrial environment.",
+"qs.testimonial.author": "Federico Colombo, Plant Manager at VASA Los Cardales.",
+
+//======= PAGINA SUMATE ==========
+// ====== INGLÉS (agregar dentro del objeto en: { ... }) ======
+
+// Join Us Page - Hero
+"sumate.hero.title": "Joining is also caring",
+"sumate.hero.text1": "At Generar Eco we work together to care for nature and strengthen communities.",
+"sumate.hero.text2": "You can join and be part of actions with real impact.",
+
+// Join Us Page - Community
+"sumate.community.title": "In community",
+"sumate.community.text": "At Generar Eco we believe that every contribution counts. That's why we propose different ways to get involved and transform that commitment into concrete actions that strengthen the environment and communities.",
+
+// Join Us Page - Cards
+"sumate.card1.text": "BECOME A VOLUNTEER",
+"sumate.card1.btn": "Participate",
+
+"sumate.card2.text": "CARING SCHOOLS",
+"sumate.card2.btn": "Learn more",
+
+"sumate.card3.text": "COMPANIES WITH IMPACT",
+"sumate.card3.btn": "Join us",
+
+// Join Us Page - Form (specific reasons)
+"sumate.form.reason.label": "Reason for contact:",
+"sumate.form.reason.default": "Select a reason",
+"sumate.form.reason.opt1": "Donations",
+"sumate.form.reason.opt2": "Volunteering",
+"sumate.form.reason.opt3": "Partnerships",
+"sumate.form.reason.opt4": "Environmental education",
+"sumate.form.reason.opt5": "Other",
+
+
+
 
 
     
