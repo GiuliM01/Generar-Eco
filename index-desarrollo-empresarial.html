@@ -6,8 +6,8 @@
     <title>Desarrollo Empresarial</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
     <link rel="stylesheet" href="index.css">
+    <script src="./translate.js"></script>
     
 </head>
 <body>
@@ -54,57 +54,58 @@
             class="navbar-nav mx-auto bg-white shadow-sm px-4 py-2 rounded-pill gap-3"
             style="font-weight: 500;">
             <li class="nav-item">
-            <a class="nav-link text-dark" href="index-inicio.html">Inicio</a>
+            <a class="nav-link text-dark" href="index-inicio.html" data-t ="nav.inicio">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-t ="nav.programas">
         Programas
     </a>
     <ul class="dropdown-menu">
         <li>
             <a class="dropdown-item" href="index-educacion-ambiental.html">
-                <strong>Educación Ambiental</strong><br>
+                <strong data-t ="drop.edu">Educación Ambiental</strong><br>
                 <small></small>
             </a>
         </li>
         <li>
             <a class="dropdown-item" href="index-desarrollo-empresarial.html">
-                <strong>Desarrollo Empresarial</strong><br>
+                <strong data-t ="drop.agri">Desarrollo Empresarial</strong><br>
                 <small></small>
             </a>
         </li>
         <li>
             <a class="dropdown-item" href="index-reserva.html">
-                <strong>Reserva Don Silvestre</strong><br>
+                <strong data-t ="drop.ref">Reserva Don Silvestre</strong><br>
                 <small></small>
             </a>
         </li>
         <li>
             <a class="dropdown-item" href="index-ecoturismo.html">
-                <strong>Ecoturismo</strong><br>
+                <strong data-t ="drop.ali">Ecoturismo</strong><br>
                 <small></small>
             </a>
         </li>
     </ul>
-
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="index-dona.html">Doná</a>
-            </li>
-            <!--
-            <li class="nav-item">
-            <a class="nav-link text-dark" href="index-app.html">App</a>
-            </li> -->
+</li>
+            
+        <li class="nav-item">
+        <a class="nav-link text-dark" href="index-dona.html" data-t ="nav.dona">Doná</a>
+        </li>
+        <!--
+        <li class="nav-item">
+        <a class="nav-link text-dark" href="index-app.html">App</a>
+        </li> -->
     </ul>
 
-        <!-- DERECHA -->
-        <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+    <!-- DERECHA -->
+    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
 
-            <!-- IDIOMAS -->
-            <div class="d-flex gap-2">
-                <button class="btn-idioma" data-lang="es">ESPAÑOL</button>
-                <span class="text-secondary">|</span>
-                <button class="btn-idioma" data-lang="en">ENGLISH</button>
-            </div>
+        <!-- IDIOMAS -->
+        <div class="d-flex gap-2">
+            <button class="btn-idioma" data-lang="es">ESPAÑOL</button>
+            <span class="text-secondary">|</span>
+            <button class="btn-idioma" data-lang="en">ENGLISH</button>
+        </div>
             <!-- 
             <button
             class="btn"
@@ -123,250 +124,248 @@
     </div>
     </nav>
 
-    <main>
+<main>
 
-        <section class="hero-intro">
-            <div class="hero-text">
-                <h1>Empresas que generan impacto</h1>
-                
-                <p>Acompañamos a organizaciones a transformar su compromiso en acciones reales. Diseñamos experiencias de voluntariado y 
-                    sostenibilidad que cuidan la naturaleza, fortalecen a los equipos y generan impacto positivo en el territorio.</p>
+<section class="hero-intro">
+    <div class="hero-text">
+        <h1 data-t="empresa.hero.title">Empresas que generan impacto</h1>
+        
+        <p data-t="empresa.hero.text">Acompañamos a organizaciones a transformar su compromiso en acciones reales. Diseñamos experiencias de voluntariado y 
+            sostenibilidad que cuidan la naturaleza, fortalecen a los equipos y generan impacto positivo en el territorio.</p>
 
-            </div>
-            <div class="hero-image-container">
-                <img src="./img/Programas/1 web.png" alt="Equipo de Generar ECO" class="hero-image">
-            </div>
-        </section>
+    </div>
+    <div class="hero-image-container">
+        <img src="./img/Programas/1 web.png" alt="Equipo de Generar ECO" class="hero-image">
+    </div>
+</section>
 
-        <section class="target-section">
-            <div class="target-header">
-                <div class="target-image-container">
-                    <img src="./img/Programas/2 web.png" alt="Reunión o Taller de trabajo" class="target-image">
-                </div>
-                <div class="target-text">
-                    <h2>¿A quién está dirigido?</h2>
-                    <p>Para empresas, instituciones y organizaciones que quieren integrar la sostenibilidad desde la acción. 
-                        Acompañamos procesos que combinan voluntariado, aprendizaje y experiencias en la naturaleza para generar 
-                        impacto real junto a los equipos.</p>
-                    <h3>Pensado para:</h3>
-                </div>
-            </div>
-        </section>
-
-        <section class="audiencia">
-        <div class="card-p4">
-            <h3>01</h3>
-            <p>Empresas que quieren iniciar o fortalecer su compromiso con el impacto social y ambiental.</p>
+<section class="target-section">
+    <div class="target-header">
+        <div class="target-image-container">
+            <img src="./img/Programas/2 web.png" alt="Reunión o Taller de trabajo" class="target-image">
         </div>
-
-        <div class="card-p4">
-            <h3>02</h3>
-            <p>Equipos que buscan experiencias significativas y en contacto con la naturaleza.</p>
+        <div class="target-text">
+            <h2 data-t="empresa.target.title">¿A quién está dirigido?</h2>
+            <p data-t="empresa.target.text">Para empresas, instituciones y organizaciones que quieren integrar la sostenibilidad desde la acción. 
+                Acompañamos procesos que combinan voluntariado, aprendizaje y experiencias en la naturaleza para generar 
+                impacto real junto a los equipos.</p>
+            <h3 data-t="empresa.target.subtitle">Pensado para:</h3>
         </div>
+    </div>
+</section>
 
-        <div class="card-p4">
-            <h3>03</h3>
-            <p>Organizaciones que quieren medir, reducir o compensar su impacto ambiental.</p>
+<section class="audiencia">
+    <div class="card-p4">
+        <h3>01</h3>
+        <p data-t="empresa.audience.card1">Empresas que quieren iniciar o fortalecer su compromiso con el impacto social y ambiental.</p>
+    </div>
+
+    <div class="card-p4">
+        <h3>02</h3>
+        <p data-t="empresa.audience.card2">Equipos que buscan experiencias significativas y en contacto con la naturaleza.</p>
+    </div>
+
+    <div class="card-p4">
+        <h3>03</h3>
+        <p data-t="empresa.audience.card3">Organizaciones que quieren medir, reducir o compensar su impacto ambiental.</p>
+    </div>
+</section>
+
+<section class="includes-section">
+
+<h2 class="section-title-p1" data-t="empresa.includes.title">Qué incluye el programa</h2>
+
+<div class="includes-grid">
+
+    <!-- TARJETA 1 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/diagnostico.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card1">Medición del impacto ambiental y diseño de acciones para reducir y compensar la huella de la organización o de eventos.</p>
+    </div>
+
+    <!-- TARJETA 2 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/nativas.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card2">Creación de biocorredores y espacios verdes con especies nativas.</p>
+    </div>
+
+    <!-- TARJETA 3 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/restaurar.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card3">Jornadas de plantación y conservación junto a los equipos de trabajo.</p>
+    </div>
+
+    <!-- TARJETA 4 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/educar.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card4">Talleres y capacitaciones sobre biodiversidad, bienestar y decisiones sostenibles.</p>
+    </div>
+
+    <!-- TARJETA 5 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/corporativo.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card5">Experiencias de voluntariado corporativo y actividades de equipo en entornos naturales.</p>
+    </div>
+
+    <!-- TARJETA 6 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/juntos.png" alt="icon">
+    <br>
+    <p data-t="empresa.includes.card6">Acompañamiento cercano en la planificación, ejecución y comunicación de cada acción.</p>
+    </div>
+
+</div>
+</section>
+
+
+<section class="how-we-work-section">
+    <h2 class="section-title-highlight" data-t="empresa.methodology.title">Cómo se trabaja</h2>
+    <div class="work-content">
+        <div class="work-image-container">
+            <img src="./img/Programas/3 web.png" alt="Vista aérea del bosque" class="work-image">
         </div>
-        </section>
-
-        <section class="includes-section">
-
-        <h2 class="section-title-p1">Qué incluye el programa</h2>
-
-        <div class="includes-grid">
-
-            <!-- TARJETA 1 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/diagnostico.png" alt="icon">
-            <br>
-            <p>Medición del impacto ambiental y diseño de acciones para reducir y compensar la huella de la organización o de eventos.</p>
-            </div>
-
-            <!-- TARJETA 2 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/nativas.png" alt="icon">
-            <br>
-            <p>Creación de biocorredores y espacios verdes con especies nativas.</p>
-            </div>
-
-            <!-- TARJETA 3 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/restaurar.png" alt="icon">
-            <br>
-            <p>Jornadas de plantación y conservación junto a los equipos de trabajo.</p>
-            </div>
-
-            <!-- TARJETA 4 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/educar.png" alt="icon">
-            <br>
-            <p>Talleres y capacitaciones sobre biodiversidad, bienestar y decisiones sostenibles.</p>
-            </div>
-
-            <!-- TARJETA 5 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/corporativo.png" alt="icon">
-            <br>
-            <p>Experiencias de voluntariado corporativo y actividades de equipo en entornos naturales.</p>
-            </div>
-
-            <!-- TARJETA 6 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/juntos.png" alt="icon">
-            <br>
-            <p>Acompañamiento cercano en la planificación, ejecución y comunicación de cada acción.</p>
-            </div>
-
+        <div class="work-text">
+            <p data-t="empresa.methodology.text">Trabajamos desde la experiencia y la acción. Cada proyecto se diseña junto a la organización, 
+                combinando aprendizaje, participación y trabajo en territorio para lograr un impacto real y 
+                alineado a sus objetivos.</p>
+                <h5 data-t="empresa.methodology.subtitle">Nuestro proceso:</h5>
+            <ul class="methodology-list">
+                <li><i class="fas fa-gem"></i><span data-t="empresa.methodology.step1">Sensibilización y participación del equipo</span></li>
+                <li><i class="fas fa-seedling"></i><span data-t="empresa.methodology.step2">Acción ambiental en territorio</span></li>
+                <li><i class="fas fa-lightbulb"></i><span data-t="empresa.methodology.step3">Diseño de mejoras sostenibles</span></li>
+                <li><i class="fas fa-calendar-check"></i><span data-t="empresa.methodology.step4">Acompañamiento y cierre con reporte de impacto</span></li>
+            </ul>
         </div>
-        </section>
+    </div>
+</section>
 
+<div class="testimonio">
+    <p class="testimonio-text" data-t="empresa.testimonial1.quote">
+        “Nos mostraron la importancia de estar en contacto con la naturaleza en el día a día, 
+        su vínculo con la neurociencia y nos dieron consejos prácticos para disminuir el estrés. 
+        Fue una experiencia muy enriquecedora para todo el equipo.”
+    </p>
+    <p class="autor" data-t="empresa.testimonial1.author">Jorge Yoyo Riva, CEO & fundador de Tekuoia.</p>
+    <br>
+    <p class="testimonio-text" data-t="empresa.testimonial2.quote">
+        “Es una actividad muy linda y muy importante para la sustentabilidad ambiental, 
+        dado que estamos en un entorno industrial.”
+    </p>
+    <p class="autor" data-t="empresa.testimonial2.author">Federico Colombo, Gerente de Planta VASA Los Cardales. </p>
+    <br>
+    <p class="testimonio-text" data-t="empresa.testimonial3.quote">
+        "Compartimos con el equipo de Generar Eco una jornada de limpieza en el Parque Natural Municipal Ribera Norte. 
+        El trabajo en equipo hizo que la tarea se sintiera ligera, vimos cómo pequeñas acciones pueden generar grandes cambios. 
+        Ese día no solo levantamos basura, sembramos conciencia."
+    </p>
+    <p class="autor" data-t="empresa.testimonial3.author">Cintia Quiñones, HR Geo Services UPS.</p>
 
-        <section class="how-we-work-section">
-            <h2 class="section-title-highlight">Cómo se trabaja</h2>
-            <div class="work-content">
-                <div class="work-image-container">
-                    <img src="./img/Programas/3 web.png" alt="Vista aérea del bosque" class="work-image">
-                </div>
-                <div class="work-text">
-                    <p>Trabajamos desde la experiencia y la acción. Cada proyecto se diseña junto a la organización, 
-                        combinando aprendizaje, participación y trabajo en territorio para lograr un impacto real y 
-                        alineado a sus objetivos.</p>
-                        <h5>Nuestro proceso:</h5>
-                    <ul class="methodology-list">
-                        <li><i class="fas fa-gem"></i> Sensibilización y participación del equipo</li>
-                        <li><i class="fas fa-seedling"></i>Acción ambiental en territorio</li>
-                        <li><i class="fas fa-lightbulb"></i>Diseño de mejoras sostenibles</li>
-                        <li><i class="fas fa-calendar-check"></i>Acompañamiento y cierre con reporte de impacto</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+</div>
 
-        <div class="testimonio">
-            <p class="testimonio-text">
-                “Nos mostraron la importancia de estar en contacto con la naturaleza en el día a día, 
-                su vínculo con la neurociencia y nos dieron consejos prácticos para disminuir el estrés. 
-                Fue una experiencia muy enriquecedora para todo el equipo.”
-            </p>
-            <p class="autor">Jorge Yoyo Riva, CEO & fundador de Tekuoia.</p>
-            <br>
-            <p class="testimonio-text">
-                “Es una actividad muy linda y muy importante para la sustentabilidad ambiental, 
-                dado que estamos en un entorno industrial.”
-            </p>
-            <p class="autor">Federico Colombo, Gerente de Planta VASA Los Cardales. </p>
-            <br>
-            <p class="testimonio-text">
-                "Compartimos con el equipo de Generar Eco una jornada de limpieza en el Parque Natural Municipal Ribera Norte. 
-                El trabajo en equipo hizo que la tarea se sintiera ligera, vimos cómo pequeñas acciones pueden generar grandes cambios. 
-                Ese día no solo levantamos basura, sembramos conciencia."
-            </p>
-            <p class="autor">Cintia Quiñones, HR Geo Services UPS.</p>
+</section>
 
-        </div>
+<section class="contact-container">
 
-    </section>
+    <div class="left-side">
+        <h2 class="title">
+            <span data-t="form.title.line1">Completá tus datos y</span> <br>
+            <span data-t="form.title.line2">te respondemos a</span> <br>
+            <span data-t="form.title.line3">la brevedad</span>
+        </h2>
 
-    <section class="contact-container">
-
-        <div class="left-side">
-            <h2 class="title">
-                Completá tus datos y <br>
-                te respondemos a <br>
-                la brevedad
-            </h2>
-
-    <div class="left-img">
-        <img src="./img/Contacto/Web Contacto .png" alt="Imagen de contacto">
+        <div class="left-img">
+            <img src="./img/Contacto/Web Contacto .png" alt="Imagen de contacto">
         </div>
     </div>
 
-    <form class="contact-form">
+<form class="contact-form">
 
-        <label>Nombre Completo:</label>
-        <input type="text" placeholder="Nombre Completo" required>
+    <label data-t="form.name.label">Nombre Completo:</label>
+    <input type="text" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
+    <small class="error-msg"></small>
+
+    <label data-t="form.email.label">Email:</label>
+    <input type="email" data-t="form.email.placeholder" placeholder="Email" required>
+    <small class="error-msg"></small>
+
+    <label data-t="form.org.label">Organización (Opcional):</label>
+    <select>
+        <option value="" data-t="form.org.default">Seleccioná una opción</option>
+        <option data-t="form.org.opt1">Empresa</option>
+        <option data-t="form.org.opt2">ONG</option>
+        <option data-t="form.org.opt3">Institución educativa</option>
+        <option data-t="form.org.opt4">Persona particular</option>
+    </select>
+
+    <label data-t="form.reason.label">Motivo de contacto:</label>
+    <select required>
+        <option value="" data-t="form.reason.default">Seleccioná un motivo</option>
+        <option data-t="form.reason.opt1">Educación ambiental</option>
+        <option data-t="form.reason.opt2">Desarrollo Empresarial</option>
+        <option data-t="form.reason.opt3">Ecoturismo</option>
+        <option data-t="form.reason.opt4">Reforestación</option>
+        <option data-t="form.reason.opt5">Donaciones y Sponsor</option>
+        <option data-t="form.reason.opt6">Marketing</option>
+        <option data-t="form.reason.opt7">Administración</option>
+    </select>
+    <small class="error-msg"></small>
+
+        <label data-t="form.message.label">Mensaje:</label>
+        <textarea data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
         <small class="error-msg"></small>
 
-        <label>Email:</label>
-        <input type="email" placeholder="Email" required>
-        <small class="error-msg"></small>
-
-        <label>Organización (Opcional):</label>
-        <select>
-            <option value="">Seleccioná una opción</option>
-            <option>Empresa</option>
-            <option>ONG</option>
-            <option>Institución educativa</option>
-            <option>Persona particular</option>
-        </select>
-
-        <label>Motivo de contacto:</label>
-        <select required>
-            <option value="">Seleccioná un motivo</option>
-            <option>Donaciones</option>
-            <option>Voluntariado</option>
-            <option>Alianzas</option>
-            <option>Educación ambiental</option>
-            <option>Otro</option>
-        </select>
-        <small class="error-msg"></small>
-
-        <label>Mensaje:</label>
-        <textarea placeholder="Escribí tu mensaje..." required></textarea>
-        <small class="error-msg"></small>
-
-        <button type="submit" class="submit-btn">Enviar</button>
+        <button type="submit" class="submit-btn" data-t="form.submit">Enviar</button>
     </form>
-    </section>
+</section>
 
-   <footer class="custom-footer">
+<footer class="custom-footer">
     <div class="footer-wrapper">
         <div class="footer-brand">
             <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
-            <p class="f-text">Cuidamos la naturaleza, inspiramos personas.</p>
+            <p class="f-text" data-t="footer.desc">Cuidamos la naturaleza, inspiramos personas.</p>
         </div>
 
-        <nav class="nav-box">
-            <a href="index-inicio.html">Home</a>
-            
-            <div class="dropdown footer-dropdown">
-            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                Programas
-            </a>
+    <nav class="nav-box">
+        <a href="index-inicio.html" data-t="footer.home">Home</a>
+        
+        <div class="dropdown footer-dropdown">
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-t="footer.prog">
+            Programas
+        </a>
 
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index-educacion-ambiental.html">Educación Ambiental</a></li>
-                <li><a class="dropdown-item" href="index-desarrollo-empresarial.html">Desarrollo Empresarial</a></li>
-                <li><a class="dropdown-item" href="index-reserva.html">Reserva Don Silvestre</a></li>
-                <li><a class="dropdown-item" href="index-ecoturismo.html">Ecoturismo</a></li>
-            </ul>
-            </div>
-
-            <a href="index-dona.html">Doná</a>
-            <!-- <a href="index-app.html">App</a> -->
-            <a href="index-contacto.html">Contacto</a>
-            <a href="index-sumate.html">Voluntariado</a>
-        </nav>
-
-        <div class="footer-box social-box">
-            <div class="social-icons">
-                <a href="https://www.instagram.com/generareco/"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/generareco"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
-                <a href=" https://www.linkedin.com/company/generar-eco/"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
-                <a href="https://www.tiktok.com/@generareco"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
-                <a href="https://www.youtube.com/channel/UCcZfqbnoS6v1gOZf2pVWTgA"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
-            </div>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index-educacion-ambiental.html" data-t="drop.edu">Educación Ambiental</a></li>
+            <li><a class="dropdown-item" href="index-desarrollo-empresarial.html" data-t="drop.agri">Desarrollo Empresarial</a></li>
+            <li><a class="dropdown-item" href="index-reserva.html" data-t="drop.ref">Reserva Don Silvestre</a></li>
+            <li><a class="dropdown-item" href="index-ecoturismo.html" data-t="drop.ali">Ecoturismo</a></li>
+        </ul>
         </div>
 
-        <div class="footer-bottom-text">
-            <p class="f-sub">© Áreas.</p>
-            <p class="f-sub">2025</p>
+        <a href="index-dona.html" data-t="footer.dona">Doná</a>
+        <!-- <a href="index-app.html" data-t="footer.app">App</a> -->
+        <a href="index-contacto.html" data-t="footer.contact">Contacto</a>
+        <a href="index-sumate.html" data-t="footer.volunteer">Voluntariado</a>
+    </nav>
+
+    <div class="footer-box social-box">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/generareco/"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/generareco"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
+            <a href=" https://www.linkedin.com/company/generar-eco/"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://www.tiktok.com/@generareco"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
+            <a href="https://www.youtube.com/channel/UCcZfqbnoS6v1gOZf2pVWTgA"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
         </div>
+    </div>
+
+    <div class="footer-bottom-text">
+        <p class="f-sub" data-t="footer.copy">© Áreas. 2025</p>
     </div>
 </footer>
 
-
-    
 </body>
 </html>

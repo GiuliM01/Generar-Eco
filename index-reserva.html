@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="index.css">
+    <script src="translate.js"></script>
 
 <body>
 
@@ -53,41 +54,43 @@
             class="navbar-nav mx-auto bg-white shadow-sm px-4 py-2 rounded-pill gap-3"
             style="font-weight: 500;">
             <li class="nav-item">
-            <a class="nav-link text-dark" href="index-inicio.html">Inicio</a>
+            <a class="nav-link text-dark" href="index-inicio.html" data-t="nav.inicio">Inicio</a>
             </li>
             <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Programas
-    </a>
-    <ul class="dropdown-menu">
-        <li>
-            <a class="dropdown-item" href="index-educacion-ambiental.html">
-                <strong>Educación Ambiental</strong><br>
-                <small></small>
+            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-t="nav.programas">
+                Programas
             </a>
+            <ul class="dropdown-menu">
+                
+                <li>
+                    <a class="dropdown-item" href="./index-educacion-ambiental.html">
+                        <strong data-t="drop.edu">Educación Ambiental</strong><br>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./index-desarrollo-empresarial.html">
+                        <strong data-t="drop.agri">Desarrollo Empresarial</strong><br>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./index-reserva.html">
+                        <strong data-t="drop.ref">Reserva Don Silvestre</strong><br>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="./index-ecoturismo.html">
+                        <strong data-t="drop.ali">Ecoturismo</strong><br>
+                        
+                    </a>
+                </li>
+            </ul>
         </li>
-        <li>
-            <a class="dropdown-item" href="index-desarrollo-empresarial.html">
-                <strong>Desarrollo Empresarial</strong><br>
-                <small></small>
-            </a>
-        </li>
-        <li>
-            <a class="dropdown-item" href="index-reserva.html">
-                <strong>Reserva Don Silvestre</strong><br>
-                <small></small>
-            </a>
-        </li>
-        <li>
-            <a class="dropdown-item" href="index-ecoturismo.html">
-                <strong>Ecoturismo</strong><br>
-                <small></small>
-            </a>
-        </li>
-    </ul>
 
             <li class="nav-item">
-            <a class="nav-link text-dark" href="index-dona.html">Doná</a>
+            <a class="nav-link text-dark" href="index-dona.html" data-t="nav.dona">Doná</a>
             </li>
             <!--
             <li class="nav-item">
@@ -100,9 +103,9 @@
 
             <!-- IDIOMAS -->
             <div class="d-flex gap-2">
-                <button class="btn-idioma" data-lang="es">ESPAÑOL</button>
+                <button class="btn-idioma" data-lang="es" data-lang="es">ESPAÑOL</button>
                 <span class="text-secondary">|</span>
-                <button class="btn-idioma" data-lang="en">ENGLISH</button>
+                <button class="btn-idioma" data-lang="en" data-lang="en">ENGLISH</button>
             </div>
             <!--
             <button
@@ -121,244 +124,243 @@
     </div>
     </nav>
 
-    <main>
+<main>
 
-        <section class="hero-intro">
-            <div class="hero-text">
-                <h1>Plantamos futuro</h1>
-                
-                <p>Un programa que devuelve vida a espacios degradados a través de la restauración con especies nativas, entendidas como parte viva del ecosistema. Cada acción es una experiencia que une educación ambiental, 
-                    cuidado del territorio y participación comunitaria para regenerar ambientes y vínculos.</p>
+<section class="hero-intro">
+    <div class="hero-text">
+        <h1 data-t="reserva.hero.title">Plantamos futuro</h1>
+        
+        <p data-t="reserva.hero.text">Un programa que devuelve vida a espacios degradados a través de la restauración con especies nativas, entendidas como parte viva del ecosistema. Cada acción es una experiencia que une educación ambiental, 
+            cuidado del territorio y participación comunitaria para regenerar ambientes y vínculos.</p>
 
-            </div>
-            <div class="hero-image-container">
-                <img src="./img/Programas/1 web.png" alt="Equipo de Generar ECO" class="hero-image">
-            </div>
-        </section>
+    </div>
+    <div class="hero-image-container">
+        <img src="./img/Programas/1 web.png" alt="Equipo de Generar ECO" class="hero-image">
+    </div>
+</section>
 
-        <section class="target-section">
-            <div class="target-header">
-                <div class="target-image-container">
-                    <img src="./img/Programas/2 web.png" alt="Reunión o Taller de trabajo" class="target-image">
-                </div>
-                <div class="target-text">
-                    <h2>¿A quién está dirigido?</h2>
-                    <p>Plantamos Futuro está pensado para quienes quieren recuperar espacios dañados y 
-                        ser parte activa de su transformación, aprendiendo y actuando en comunidad.</p>
-                    <br>
-                    <h3>Pensado para:</h3>
-                </div>
-            </div>
-        </section>
-
-        <section class="audiencia">
-        <div class="card-p4">
-            <h3>01</h3>
-            <p>
-                Instituciones con espacios deteriorados que buscan restauración ecológica.
-            </p>
+<section class="target-section">
+    <div class="target-header">
+        <div class="target-image-container">
+            <img src="./img/Programas/2 web.png" alt="Reunión o Taller de trabajo" class="target-image">
         </div>
-
-        <div class="card-p4">
-            <h3>02</h3>
-            <p>
-                Empresas que quieren vivir experiencias ambientales junto a sus equipos.
-            </p>
-        </div>
-
-        <div class="card-p4">
-            <h3>03</h3>
-            <p>
-                Escuelas que promueven la educación ambiental en contacto con la naturaleza. 
-            </p>
-        </div>
-        </section>
-
-        <section class="includes-section">
-
-        <h2 class="section-title-highlight">Qué incluye el programa</h2>
-        <br>
-
-        <div class="includes-grid">
-
-            <!-- TARJETA 1 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/diagnostico.png" alt="icon">
+        <div class="target-text">
+            <h2 data-t="reserva.target.title">¿A quién está dirigido?</h2>
+            <p data-t="reserva.target.text">Plantamos Futuro está pensado para quienes quieren recuperar espacios dañados y 
+                ser parte activa de su transformación, aprendiendo y actuando en comunidad.</p>
             <br>
-            <p>Diagnóstico ecológico del espacio a intervenir.</p>
-            </div>
-
-            <!-- TARJETA 2 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/nativas.png" alt="icon">
-            <br>
-            <p>Selección de especies nativas como parte viva del ecosistema, no solo para plantar.</p>
-            </div>
-
-            <!-- TARJETA 3 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/restaurar.png" alt="icon">
-            <br>
-            <p>Jornada participativa de restauración y reforestación ecológica..</p>
-            </div>
-
-            <!-- TARJETA 4 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/educar.png" alt="icon">
-            <br>
-            <p>Taller de educación y salud ambiental para comprender el rol de las especies nativas.</p>
-            </div>
-
-            <!-- TARJETA 5 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/juntos.png" alt="icon">
-            <br>
-            <p>Acompañamiento técnico y pedagógico durante todo el proceso.</p>
-            </div>
-
-            <!-- TARJETA 6 -->
-            <div class="include-card">
-            <img src="./img/Iconos-prog/material.png" alt="icon">
-            <br>
-            <p>Material educativo ambiental para compartir con toda la comunidad.</p>
-            </div>
-
-        </div>
-        </section>
-
-
-        <section class="how-we-work-section">
-            <h2 class="section-title-highlight">Cómo se trabaja / Metodología</h2>
-            <div class="work-content">
-                <div class="work-image-container">
-                    <img src="./img/Programas/3 web.png" alt="Vista aérea del bosque" class="work-image">
-                </div>
-                <div class="work-text">
-                    <p>Restaurar no es solo plantar. Es volver a conectar a las personas con el ecosistema del que forman parte. 
-                        Por eso, cada proyecto combina educación ambiental, cuidado del entorno y participación activa para crear 
-                        experiencias profundas y transformadoras.</p>
-                    <h5>Nuestro camino:</h5>
-                    <ul class="methodology-list">
-                        <li><i class="fas fa-gem"></i>Sensibilización.</li>
-                        <li><i class="fas fa-seedling"></i>Comprensión del ecosistema y las especies nativas.</li>
-                        <li><i class="fas fa-lightbulb"></i>Acción de restauración en territorio.</li>
-                        <li><i class="fas fa-calendar-check"></i>Acompañamiento continuo.</li>
-                        <li><i class="fas fa-calendar-check"></i>Consolidación del impacto.</li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="includes-section">
-            <div class="testimonio">
-                <p class="testimonio-text">
-                    “Aprendimos que plantar nativas es mucho más que plantar árboles. Es recuperar vida y aprender juntos.”
-                </p>
-                <p class="autor">Docente participante</p>
-            </div>
-        </section>
-
-    <section class="contact-container">
-
-        <div class="left-side">
-            <h2 class="title">
-                Completá tus datos y <br>
-                te respondemos a <br>
-                la brevedad
-            </h2>
-
-    <div class="left-img">
-        <img src="./img/Contacto/Web Contacto .png" alt="Imagen de contacto">
+            <h3 data-t="reserva.target.subtitle">Pensado para:</h3>
         </div>
     </div>
+</section>
 
-    <form class="contact-form">
+<section class="audiencia">
+    <div class="card-p4">
+        <h3>01</h3>
+        <p data-t="reserva.audience.card1">
+            Instituciones con espacios deteriorados que buscan restauración ecológica.
+        </p>
+    </div>
 
-        <label>Nombre Completo:</label>
-        <input type="text" placeholder="Nombre Completo" required>
-        <small class="error-msg"></small>
+    <div class="card-p4">
+        <h3>02</h3>
+        <p data-t="reserva.audience.card2">
+            Empresas que quieren vivir experiencias ambientales junto a sus equipos.
+        </p>
+    </div>
 
-        <label>Email:</label>
-        <input type="email" placeholder="Email" required>
-        <small class="error-msg"></small>
+    <div class="card-p4">
+        <h3>03</h3>
+        <p data-t="reserva.audience.card3">
+            Escuelas que promueven la educación ambiental en contacto con la naturaleza. 
+        </p>
+    </div>
+</section>
 
-        <label>Organización (Opcional):</label>
-        <select>
-            <option value="">Seleccioná una opción</option>
-            <option>Empresa</option>
-            <option>ONG</option>
-            <option>Institución educativa</option>
-            <option>Persona particular</option>
-        </select>
+<section class="includes-section">
 
-        <label>Motivo de contacto:</label>
-        <select required>
-            <option value="">Seleccioná un motivo</option>
-            <option>Donaciones</option>
-            <option>Voluntariado</option>
-            <option>Alianzas</option>
-            <option>Educación ambiental</option>
-            <option>Otro</option>
-        </select>
-        <small class="error-msg"></small>
+    <h2 class="section-title-highlight" data-t="reserva.includes.title">Qué incluye el programa</h2>
+    <br>
 
-        <label>Mensaje:</label>
-        <textarea placeholder="Escribí tu mensaje..." required></textarea>
-        <small class="error-msg"></small>
+    <div class="includes-grid">
 
-        <button type="submit" class="submit-btn">Enviar</button>
-    </form>
-    </section>
+    <!-- TARJETA 1 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/diagnostico.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card1">Diagnóstico ecológico del espacio a intervenir.</p>
+    </div>
 
-    <footer class="custom-footer">
-    <div class="footer-wrapper">
-        <div class="footer-brand">
-            <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
-            <p class="f-text">Cuidamos la naturaleza, inspiramos personas.</p>
+    <!-- TARJETA 2 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/nativas.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card2">Selección de especies nativas como parte viva del ecosistema, no solo para plantar.</p>
+    </div>
+
+    <!-- TARJETA 3 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/restaurar.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card3">Jornada participativa de restauración y reforestación ecológica..</p>
+    </div>
+
+    <!-- TARJETA 4 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/educar.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card4">Taller de educación y salud ambiental para comprender el rol de las especies nativas.</p>
+    </div>
+
+    <!-- TARJETA 5 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/juntos.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card5">Acompañamiento técnico y pedagógico durante todo el proceso.</p>
+    </div>
+
+    <!-- TARJETA 6 -->
+    <div class="include-card">
+    <img src="./img/Iconos-prog/material.png" alt="icon">
+    <br>
+    <p data-t="reserva.includes.card6">Material educativo ambiental para compartir con toda la comunidad.</p>
+    </div>
+
+</div>
+</section>
+
+
+<section class="how-we-work-section">
+    <h2 class="section-title-highlight" data-t="reserva.methodology.title">Cómo se trabaja / Metodología</h2>
+    <div class="work-content">
+        <div class="work-image-container">
+            <img src="./img/Programas/3 web.png" alt="Vista aérea del bosque" class="work-image">
         </div>
-
-        <nav class="nav-box">
-            <a href="index-inicio.html">Home</a>
-            
-            <div class="dropdown footer-dropdown">
-            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                Programas
-            </a>
-
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="index-educacion-ambiental.html">Educación Ambiental</a></li>
-                <li><a class="dropdown-item" href="index-desarrollo-empresarial.html">Desarrollo Empresarial</a></li>
-                <li><a class="dropdown-item" href="index-reserva.html">Reserva Don Silvestre</a></li>
-                <li><a class="dropdown-item" href="index-ecoturismo.html">Ecoturismo</a></li>
+        <div class="work-text">
+            <p data-t="reserva.methodology.text">Restaurar no es solo plantar. Es volver a conectar a las personas con el ecosistema del que forman parte. 
+                Por eso, cada proyecto combina educación ambiental, cuidado del entorno y participación activa para crear 
+                experiencias profundas y transformadoras.</p>
+            <h5 data-t="reserva.methodology.subtitle">Nuestro camino:</h5>
+            <ul class="methodology-list">
+                <li><i class="fas fa-gem"></i><span data-t="reserva.methodology.step1">Sensibilización.</span></li>
+                <li><i class="fas fa-seedling"></i><span data-t="reserva.methodology.step2">Comprensión del ecosistema y las especies nativas.</span></li>
+                <li><i class="fas fa-lightbulb"></i><span data-t="reserva.methodology.step3">Acción de restauración en territorio.</span></li>
+                <li><i class="fas fa-calendar-check"></i><span data-t="reserva.methodology.step4">Acompañamiento continuo.</span></li>
+                <li><i class="fas fa-calendar-check"></i><span data-t="reserva.methodology.step5">Consolidación del impacto.</span></li>
             </ul>
-            </div>
-
-            <a href="index-dona.html">Doná</a>
-            <!-- <a href="index-app.html">App</a> -->
-            <a href="index-contacto.html">Contacto</a>
-            <a href="index-sumate.html">Voluntariado</a>
-        </nav>
-
-        <div class="footer-box social-box">
-            <div class="social-icons">
-                <a href="https://www.instagram.com/generareco/"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
-                <a href="https://www.facebook.com/generareco"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
-                <a href=" https://www.linkedin.com/company/generar-eco/"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
-                <a href="https://www.tiktok.com/@generareco"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
-                <a href="https://www.youtube.com/channel/UCcZfqbnoS6v1gOZf2pVWTgA"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
-            </div>
         </div>
-
-        <div class="footer-bottom-text">
-            <p class="f-sub">© Áreas.</p>
-            <p class="f-sub">2025</p>
         </div>
     </div>
-</footer>
+</section>
 
+<section class="includes-section">
+    <div class="testimonio">
+        <p class="testimonio-text" data-t="reserva.testimonial.quote">
+            “Aprendimos que plantar nativas es mucho más que plantar árboles. Es recuperar vida y aprender juntos.”
+        </p>
+        <p class="autor" data-t="reserva.testimonial.author">Docente participante</p>
+    </div>
+</section>
+
+<section class="contact-container">
+
+    <div class="left-side">
+        <h2 class="title">
+            <span data-t="form.title.line1">Completá tus datos y</span> <br>
+            <span data-t="form.title.line2">te respondemos a</span> <br>
+            <span data-t="form.title.line3">la brevedad</span>
+        </h2>
+
+        <div class="left-img">
+            <img src="./img/Contacto/Web Contacto .png" alt="Imagen de contacto">
+        </div>
+    </div>
+
+<form class="contact-form">
+
+    <label data-t="form.name.label">Nombre Completo:</label>
+    <input type="text" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
+    <small class="error-msg"></small>
+
+    <label data-t="form.email.label">Email:</label>
+    <input type="email" data-t="form.email.placeholder" placeholder="Email" required>
+    <small class="error-msg"></small>
+
+    <label data-t="form.org.label">Organización (Opcional):</label>
+    <select>
+        <option value="" data-t="form.org.default">Seleccioná una opción</option>
+        <option data-t="form.org.opt1">Empresa</option>
+        <option data-t="form.org.opt2">ONG</option>
+        <option data-t="form.org.opt3">Institución educativa</option>
+        <option data-t="form.org.opt4">Persona particular</option>
+    </select>
+
+    <label data-t="form.reason.label">Motivo de contacto:</label>
+    <select required>
+        <option value="" data-t="form.reason.default">Seleccioná un motivo</option>
+        <option data-t="form.reason.opt1">Educación ambiental</option>
+        <option data-t="form.reason.opt2">Desarrollo Empresarial</option>
+        <option data-t="form.reason.opt3">Ecoturismo</option>
+        <option data-t="form.reason.opt4">Reforestación</option>
+        <option data-t="form.reason.opt5">Donaciones y Sponsor</option>
+        <option data-t="form.reason.opt6">Marketing</option>
+        <option data-t="form.reason.opt7">Administración</option>
+    </select>
+    <small class="error-msg"></small>
+
+        <label data-t="form.message.label">Mensaje:</label>
+        <textarea data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
+        <small class="error-msg"></small>
+
+        <button type="submit" class="submit-btn" data-t="form.submit">Enviar</button>
+    </form>
+</section>
 
 
     
+<footer class="custom-footer">
+    <div class="footer-wrapper">
+        <div class="footer-brand">
+            <img src="./img-inicio/logo.png" alt="Logo Generar ECO" class="footer-logo">
+            <p class="f-text" data-t="footer.desc">Cuidamos la naturaleza, inspiramos personas.</p>
+        </div>
+
+    <nav class="nav-box">
+        <a href="index-inicio.html" data-t="footer.home">Home</a>
+        
+        <div class="dropdown footer-dropdown">
+        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-t="footer.prog">
+            Programas
+        </a>
+
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index-educacion-ambiental.html" data-t="drop.edu">Educación Ambiental</a></li>
+            <li><a class="dropdown-item" href="index-desarrollo-empresarial.html" data-t="drop.agri">Desarrollo Empresarial</a></li>
+            <li><a class="dropdown-item" href="index-reserva.html" data-t="drop.ref">Reserva Don Silvestre</a></li>
+            <li><a class="dropdown-item" href="index-ecoturismo.html" data-t="drop.ali">Ecoturismo</a></li>
+        </ul>
+        </div>
+
+        <a href="index-dona.html" data-t="footer.dona">Doná</a>
+        <!-- <a href="index-app.html" data-t="footer.app">App</a> -->
+        <a href="index-contacto.html" data-t="footer.contact">Contacto</a>
+        <a href="index-sumate.html" data-t="footer.volunteer">Voluntariado</a>
+    </nav>
+
+    <div class="footer-box social-box">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/generareco/"><img src="./img/Footer/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/generareco"><img src="./img/Footer/facebook.png" alt="Facebook"></a>
+            <a href=" https://www.linkedin.com/company/generar-eco/"><img src="./img/Footer/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://www.tiktok.com/@generareco"><img src="./img/Footer/tiktok.png" alt="TikTok"></a>
+            <a href="https://www.youtube.com/channel/UCcZfqbnoS6v1gOZf2pVWTgA"><img src="./img/Footer/youtube.png" alt="YouTube"></a>
+        </div>
+    </div>
+
+    <div class="footer-bottom-text">
+        <p class="f-sub" data-t="footer.copy">© Áreas. 2025</p>
+    </div>
+</footer>
+
 </body>
 </html>
