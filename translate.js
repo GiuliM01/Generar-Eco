@@ -226,9 +226,188 @@ const lang = {
 "sumate.form.reason.opt3": "Alianzas",
 "sumate.form.reason.opt4": "Educación ambiental",
 "sumate.form.reason.opt5": "Otro",
+
+// ============ PÁGINA RESERVA DON SILVESTRE ============
+// Hero
+  "reserva.hero.title": "Plantamos futuro",
+  "reserva.hero.text": "Un programa que devuelve vida a espacios degradados a través de la restauración con especies nativas, entendidas como parte viva del ecosistema. Cada acción es una experiencia que une educación ambiental, cuidado del territorio y participación comunitaria para regenerar ambientes y vínculos.",
     
+    // Target/Dirigido
+    "reserva.target.title": "¿A quién está dirigido?",
+    "reserva.target.text": "Plantamos Futuro está pensado para quienes quieren recuperar espacios dañados y ser parte activa de su transformación, aprendiendo y actuando en comunidad.",
+    "reserva.target.subtitle": "Pensado para:",
     
-    // FOOTER
+    // Audience Cards
+    "reserva.audience.card1": "Instituciones con espacios deteriorados que buscan restauración ecológica.",
+    "reserva.audience.card2": "Empresas que quieren vivir experiencias ambientales junto a sus equipos.",
+    "reserva.audience.card3": "Escuelas que promueven la educación ambiental en contacto con la naturaleza.",
+    
+    // Qué incluye
+    "reserva.includes.title": "Qué incluye el programa",
+    "reserva.includes.card1": "Diagnóstico ecológico del espacio a intervenir.",
+    "reserva.includes.card2": "Selección de especies nativas como parte viva del ecosistema, no solo para plantar.",
+    "reserva.includes.card3": "Jornada participativa de restauración y reforestación ecológica.",
+    "reserva.includes.card4": "Taller de educación y salud ambiental para comprender el rol de las especies nativas.",
+    "reserva.includes.card5": "Acompañamiento técnico y pedagógico durante todo el proceso.",
+    "reserva.includes.card6": "Material educativo ambiental para compartir con toda la comunidad.",
+    
+    // Metodología
+    "reserva.methodology.title": "Cómo se trabaja / Metodología",
+    "reserva.methodology.text": "Restaurar no es solo plantar. Es volver a conectar a las personas con el ecosistema del que forman parte. Por eso, cada proyecto combina educación ambiental, cuidado del entorno y participación activa para crear experiencias profundas y transformadoras.",
+    "reserva.methodology.subtitle": "Nuestro camino:",
+    "reserva.methodology.step1": "Sensibilización.",
+    "reserva.methodology.step2": "Comprensión del ecosistema y las especies nativas.",
+    "reserva.methodology.step3": "Acción de restauración en territorio.",
+    "reserva.methodology.step4": "Acompañamiento continuo.",
+    "reserva.methodology.step5": "Consolidación del impacto.",
+    
+    // Testimonial
+    "reserva.testimonial.quote": "Aprendimos que plantar nativas es mucho más que plantar árboles. Es recuperar vida y aprender juntos.",
+    "reserva.testimonial.author": "Docente participante",
+
+
+     // ============ PÁGINA ECOTURISMO ============
+    // Hero
+    "eco.hero.title": "Ecoturismo con impacto positivo",
+    "eco.hero.text": "Viajamos y acompañamos a destinos y proveedores turísticos a crear experiencias responsables que cuidan la naturaleza, fortalecen las comunidades locales y transforman la forma de conocer cada lugar.",
+    
+    // Target/Dirigido
+    "eco.target.title": "¿A quién está dirigido?",
+    "eco.target.text": "Este programa está pensado para quienes quieren que el turismo sea una fuerza positiva. Acompañamos a destinos, organizaciones y personas que buscan crear y vivir experiencias ecoturísticas responsables, cuidando la naturaleza y fortaleciendo a las comunidades locales.",
+    
+    // Audience Cards
+    "eco.audience.card1.title": "Destinos y proveedores turísticos",
+    "eco.audience.card1.text": "Municipios, provincias, áreas de turismo y empresas que quieren desarrollar experiencias ecoturísticas responsables, mejorar su oferta y capacitarse en sostenibilidad.",
+    
+    "eco.audience.card2.title": "Grupos comunitarios",
+    "eco.audience.card2.text": "Comunidades y organizaciones que ven en el ecoturismo una oportunidad para el desarrollo local y buscan apoyo para diseñar y gestionar proyectos sostenibles.",
+    
+    "eco.audience.card3.title": "Personas que aman viajar y la naturaleza",
+    "eco.audience.card3.text": "Viajeras y viajeros que buscan experiencias auténticas, en contacto con el ambiente y las comunidades, y desean recorrer destinos de forma consciente y responsable.",
+    
+    // Qué incluye
+    "eco.includes.title": "Qué incluye el programa",
+    
+    "eco.includes.card1.title": "Talleres y capacitaciones prácticas.",
+    "eco.includes.card1.text": "Para aprender a diseñar experiencias ecoturísticas responsables y aplicarlas en el territorio.",
+    
+    "eco.includes.card2.title": "Acompañamiento personalizado.",
+    "eco.includes.card2.text": "En la creación o mejora de propuestas turísticas que cuidan el ambiente y generan valor local.",
+    
+    "eco.includes.card3.title": "Experiencias ecoturísticas reales.",
+    "eco.includes.card3.text": "Actividades para explorar destinos de forma consciente, conectando con la naturaleza y las comunidades anfitrionas.",
+    
+    "eco.includes.card4.title": "Buenas prácticas en acción.",
+    "eco.includes.card4.text": "Herramientas simples para mejorar la gestión, el impacto y la calidad de cada experiencia.",
+    
+    "eco.includes.card5.title": "Red de aliados.",
+    "eco.includes.card5.text": "Vínculos con otros actores del turismo responsable para compartir aprendizajes y crecer en comunidad.",
+    
+    // Metodología
+    "eco.methodology.title": "Cómo se trabaja / Metodología",
+    "eco.methodology.text": "Trabajamos desde la co-creación y la participación. Partimos del territorio, escuchamos a quienes lo habitan y diseñamos juntos acciones y experiencias ecoturísticas que cuidan el ambiente, fortalecen a las comunidades y generan impacto real en el tiempo.",
+    "eco.methodology.subtitle": "Pasos del proceso:",
+    "eco.methodology.step1": "Escuchar y conocer el territorio.",
+    "eco.methodology.step2": "Sensibilizar y sumar a los actores locales.",
+    "eco.methodology.step3": "Pasar a la acción con experiencias responsables.",
+    "eco.methodology.step4": "Acompañar y fortalecer en el camino.",
+    "eco.methodology.step5": "Medir el impacto y seguir mejorando.",
+
+    // ============ PÁGINA DESARROLLO EMPRESARIAL ============
+    // Hero
+    "empresa.hero.title": "Empresas que generan impacto",
+    "empresa.hero.text": "Acompañamos a organizaciones a transformar su compromiso en acciones reales. Diseñamos experiencias de voluntariado y sostenibilidad que cuidan la naturaleza, fortalecen a los equipos y generan impacto positivo en el territorio.",
+    
+    // Target/Dirigido
+    "empresa.target.title": "¿A quién está dirigido?",
+    "empresa.target.text": "Para empresas, instituciones y organizaciones que quieren integrar la sostenibilidad desde la acción. Acompañamos procesos que combinan voluntariado, aprendizaje y experiencias en la naturaleza para generar impacto real junto a los equipos.",
+    "empresa.target.subtitle": "Pensado para:",
+    
+    // Audience Cards
+    "empresa.audience.card1": "Empresas que quieren iniciar o fortalecer su compromiso con el impacto social y ambiental.",
+    "empresa.audience.card2": "Equipos que buscan experiencias significativas y en contacto con la naturaleza.",
+    "empresa.audience.card3": "Organizaciones que quieren medir, reducir o compensar su impacto ambiental.",
+    
+    // Qué incluye
+    "empresa.includes.title": "Qué incluye el programa",
+    "empresa.includes.card1": "Medición del impacto ambiental y diseño de acciones para reducir y compensar la huella de la organización o de eventos.",
+    "empresa.includes.card2": "Creación de biocorredores y espacios verdes con especies nativas.",
+    "empresa.includes.card3": "Jornadas de plantación y conservación junto a los equipos de trabajo.",
+    "empresa.includes.card4": "Talleres y capacitaciones sobre biodiversidad, bienestar y decisiones sostenibles.",
+    "empresa.includes.card5": "Experiencias de voluntariado corporativo y actividades de equipo en entornos naturales.",
+    "empresa.includes.card6": "Acompañamiento cercano en la planificación, ejecución y comunicación de cada acción.",
+    
+    // Metodología
+    "empresa.methodology.title": "Cómo se trabaja",
+    "empresa.methodology.text": "Trabajamos desde la experiencia y la acción. Cada proyecto se diseña junto a la organización, combinando aprendizaje, participación y trabajo en territorio para lograr un impacto real y alineado a sus objetivos.",
+    "empresa.methodology.subtitle": "Nuestro proceso:",
+    "empresa.methodology.step1": "Sensibilización y participación del equipo",
+    "empresa.methodology.step2": "Acción ambiental en territorio",
+    "empresa.methodology.step3": "Diseño de mejoras sostenibles",
+    "empresa.methodology.step4": "Acompañamiento y cierre con reporte de impacto",
+    
+    // Testimonials
+    "empresa.testimonial1.quote": "Nos mostraron la importancia de estar en contacto con la naturaleza en el día a día, su vínculo con la neurociencia y nos dieron consejos prácticos para disminuir el estrés. Fue una experiencia muy enriquecedora para todo el equipo.",
+    "empresa.testimonial1.author": "Jorge Yoyo Riva, CEO & fundador de Tekuoia.",
+    
+    "empresa.testimonial2.quote": "Es una actividad muy linda y muy importante para la sustentabilidad ambiental, dado que estamos en un entorno industrial.",
+    "empresa.testimonial2.author": "Federico Colombo, Gerente de Planta VASA Los Cardales.",
+    
+    "empresa.testimonial3.quote": "Compartimos con el equipo de Generar Eco una jornada de limpieza en el Parque Natural Municipal Ribera Norte. El trabajo en equipo hizo que la tarea se sintiera ligera, vimos cómo pequeñas acciones pueden generar grandes cambios. Ese día no solo levantamos basura, sembramos conciencia.",
+    "empresa.testimonial3.author": "Cintia Quiñones, HR Geo Services UPS.",
+
+
+     // ============ PÁGINA EDUCACIÓN AMBIENTAL ============
+    // Hero
+    "educa.hero.title": "Naturaleza que enseña",
+    "educa.hero.text": "Creamos experiencias educativas en la naturaleza para que niños y jóvenes aprendan desde la vivencia, se conecten con el ambiente y desarrollen una mirada consciente y comprometida con su cuidado.",
+    
+    // Target/Dirigido
+    "educa.target.title": "¿A quién está dirigido?",
+    "educa.target.text": "A escuelas de nivel inicial, primario y secundario que quieren promover la educación ambiental desde la experiencia: aprender en contacto con la naturaleza y transformar ese aprendizaje en acción junto a sus estudiantes.",
+    
+    // Audience Cards
+    "educa.audience.card1": "Escuelas que desean fortalecer su propuesta ambiental.",
+    "educa.audience.card2": "Docentes interesados en actividades vivenciales y participativas.",
+    "educa.audience.card3": "Instituciones que buscan conectar a sus estudiantes con la naturaleza.",
+    "educa.audience.card4": "Espacios educativos que apuestan a germinar árboles nativos y restaurar ambientes desde la escuela.",
+    
+    // Qué incluye
+    "educa.includes.title": "Qué incluye el programa",
+    "educa.includes.card1": "Talleres interactivos sobre biodiversidad, humedales, árboles nativos, mariposas y cuidado del ambiente.",
+    "educa.includes.card2": "Salidas educativas a áreas naturales protegidas del Delta y el AMBA.",
+    "educa.includes.card3": "Caminatas interpretativas para conocer flora y fauna local.",
+    "educa.includes.card4": "Jornadas de plantación de especies nativas con estudiantes.",
+    "educa.includes.card5": "Actividades sobre compostaje, reciclaje y hábitos sostenibles.",
+    "educa.includes.card6": "Material educativo y acompañamiento a docentes.",
+    "educa.includes.card7": "Experiencias pensadas para despertar curiosidad, bienestar y conexión con la naturaleza.",
+    
+    // Metodología
+    "educa.methodology.title": "Cómo se trabaja / Metodología",
+    "educa.methodology.text": "Aprendemos haciendo, sintiendo y observando la naturaleza. Cada actividad combina exploración, juego, conocimiento y acción concreta, fortaleciendo el vínculo con los ecosistemas locales.",
+    "educa.methodology.subtitle": "Nuestro recorrido:",
+    "educa.methodology.step1": "Descubrir",
+    "educa.methodology.step2": "Conocer",
+    "educa.methodology.step3": "Explorar",
+    "educa.methodology.step4": "Amar",
+    "educa.methodology.step5": "Cuidar",
+    "educa.methodology.step6": "Restaurar",
+    
+    // Impacto esperado
+    "educa.impact.title": "Impacto esperado",
+    "educa.impact.text": "El contacto con la naturaleza fortalece el bienestar emocional y la sensibilidad ambiental de los estudiantes. Acompañamos la formación de personas conscientes, críticas y comprometidas con el cuidado del ambiente. Las escuelas integran la educación ambiental como parte de su identidad y construyen proyectos sostenibles a largo plazo.",
+    
+    // Impact Cards
+    "educa.impact.card1": "Conexión real con la naturaleza",
+    "educa.impact.card2": "Participación activa de estudiantes",
+    "educa.impact.card3": "Hábitos sostenibles en la escuela",
+    "educa.impact.card4": "Acciones ambientales concretas",
+    
+    // Testimonial
+    "educa.testimonial.quote": "Nuestros estudiantes volvieron transformados: más curiosos, más conectados y con ganas de cuidar su entorno.",
+    "educa.testimonial.author": "Docente participante, Programa de Educación Ambiental",
+
+   // FOOTER
     "footer.desc": "Cuidamos la naturaleza, inspiramos personas.",
     "footer.copy": "© Áreas. 2025",
     "footer.home": "Inicio",
@@ -468,7 +647,6 @@ const lang = {
 "sumate.form.reason.opt5": "Other",
 
 
-
 // ============ DON SILVESTRE RESERVE PAGE ============
     // Hero
     "reserva.hero.title": "We plant the future",
@@ -598,6 +776,7 @@ const lang = {
     
     "empresa.testimonial3.quote": "We shared with the Generar Eco team a cleaning day at the Ribera Norte Municipal Natural Park. The teamwork made the task feel light, we saw how small actions can generate big changes. That day we didn't just pick up trash, we sowed awareness.",
     "empresa.testimonial3.author": "Cintia Quiñones, HR Geo Services UPS.",
+
 
 
     // ============ ENVIRONMENTAL EDUCATION PAGE ============
