@@ -469,6 +469,188 @@ const lang = {
 
 
 
+// ============ DON SILVESTRE RESERVE PAGE ============
+    // Hero
+    "reserva.hero.title": "We plant the future",
+    "reserva.hero.text": "A program that brings life back to degraded spaces through restoration with native species, understood as a living part of the ecosystem. Each action is an experience that unites environmental education, land care and community participation to regenerate environments and bonds.",
+    
+    // Target/Audience
+    "reserva.target.title": "Who is it for?",
+    "reserva.target.text": "We Plant the Future is designed for those who want to restore damaged spaces and be an active part of their transformation, learning and acting in community.",
+    "reserva.target.subtitle": "Designed for:",
+    
+    // Audience Cards
+    "reserva.audience.card1": "Institutions with deteriorated spaces seeking ecological restoration.",
+    "reserva.audience.card2": "Companies that want to experience environmental activities with their teams.",
+    "reserva.audience.card3": "Schools that promote environmental education in contact with nature.",
+    
+    // What's included
+    "reserva.includes.title": "What the program includes",
+    "reserva.includes.card1": "Ecological diagnosis of the space to be restored.",
+    "reserva.includes.card2": "Selection of native species as a living part of the ecosystem, not just for planting.",
+    "reserva.includes.card3": "Participatory ecological restoration and reforestation day.",
+    "reserva.includes.card4": "Environmental education and health workshop to understand the role of native species.",
+    "reserva.includes.card5": "Technical and pedagogical support throughout the process.",
+    "reserva.includes.card6": "Environmental educational material to share with the entire community.",
+    
+    // Methodology
+    "reserva.methodology.title": "How we work / Methodology",
+    "reserva.methodology.text": "Restoring is not just planting. It's reconnecting people with the ecosystem they're part of. That's why each project combines environmental education, environmental care and active participation to create deep and transformative experiences.",
+    "reserva.methodology.subtitle": "Our path:",
+    "reserva.methodology.step1": "Awareness.",
+    "reserva.methodology.step2": "Understanding the ecosystem and native species.",
+    "reserva.methodology.step3": "Restoration action in the territory.",
+    "reserva.methodology.step4": "Continuous support.",
+    "reserva.methodology.step5": "Impact consolidation.",
+    
+    // Testimonial
+    "reserva.testimonial.quote": "We learned that planting native species is much more than planting trees. It's about recovering life and learning together.",
+    "reserva.testimonial.author": "Participating teacher",
+
+
+    // ============ ECOTOURISM PAGE ============
+    // Hero
+    "eco.hero.title": "Ecotourism with positive impact",
+    "eco.hero.text": "We travel and support destinations and tourism providers to create responsible experiences that care for nature, strengthen local communities and transform the way we discover each place.",
+    
+    // Target/Audience
+    "eco.target.title": "Who is it for?",
+    "eco.target.text": "This program is designed for those who want tourism to be a positive force. We support destinations, organizations and people who seek to create and experience responsible ecotourism experiences, caring for nature and strengthening local communities.",
+    
+    // Audience Cards
+    "eco.audience.card1.title": "Destinations and tourism providers",
+    "eco.audience.card1.text": "Municipalities, provinces, tourism areas and companies that want to develop responsible ecotourism experiences, improve their offer and train in sustainability.",
+    
+    "eco.audience.card2.title": "Community groups",
+    "eco.audience.card2.text": "Communities and organizations that see ecotourism as an opportunity for local development and seek support to design and manage sustainable projects.",
+    
+    "eco.audience.card3.title": "People who love to travel and nature",
+    "eco.audience.card3.text": "Travelers who seek authentic experiences, in contact with the environment and communities, and wish to explore destinations in a conscious and responsible way.",
+    
+    // What's included
+    "eco.includes.title": "What the program includes",
+    
+    "eco.includes.card1.title": "Practical workshops and training.",
+    "eco.includes.card1.text": "To learn how to design responsible ecotourism experiences and apply them in the territory.",
+    
+    "eco.includes.card2.title": "Personalized support.",
+    "eco.includes.card2.text": "In creating or improving tourism proposals that care for the environment and generate local value.",
+    
+    "eco.includes.card3.title": "Real ecotourism experiences.",
+    "eco.includes.card3.text": "Activities to explore destinations consciously, connecting with nature and host communities.",
+    
+    "eco.includes.card4.title": "Best practices in action.",
+    "eco.includes.card4.text": "Simple tools to improve the management, impact and quality of each experience.",
+    
+    "eco.includes.card5.title": "Network of allies.",
+    "eco.includes.card5.text": "Links with other responsible tourism actors to share learnings and grow in community.",
+    
+    // Methodology
+    "eco.methodology.title": "How we work / Methodology",
+    "eco.methodology.text": "We work from co-creation and participation. We start from the territory, listen to those who inhabit it and design together ecotourism actions and experiences that care for the environment, strengthen communities and generate real impact over time.",
+    "eco.methodology.subtitle": "Process steps:",
+    "eco.methodology.step1": "Listen and know the territory.",
+    "eco.methodology.step2": "Raise awareness and engage local actors.",
+    "eco.methodology.step3": "Move to action with responsible experiences.",
+    "eco.methodology.step4": "Support and strengthen along the way.",
+    "eco.methodology.step5": "Measure impact and keep improving.",
+
+
+    // ============ BUSINESS DEVELOPMENT PAGE ============
+    // Hero
+    "empresa.hero.title": "Companies that generate impact",
+    "empresa.hero.text": "We support organizations to transform their commitment into real actions. We design volunteering and sustainability experiences that care for nature, strengthen teams and generate positive impact in the territory.",
+    
+    // Target/Audience
+    "empresa.target.title": "Who is it for?",
+    "empresa.target.text": "For companies, institutions and organizations that want to integrate sustainability through action. We support processes that combine volunteering, learning and experiences in nature to generate real impact together with teams.",
+    "empresa.target.subtitle": "Designed for:",
+    
+    // Audience Cards
+    "empresa.audience.card1": "Companies that want to initiate or strengthen their commitment to social and environmental impact.",
+    "empresa.audience.card2": "Teams looking for meaningful experiences in contact with nature.",
+    "empresa.audience.card3": "Organizations that want to measure, reduce or offset their environmental impact.",
+    
+    // What's included
+    "empresa.includes.title": "What the program includes",
+    "empresa.includes.card1": "Measurement of environmental impact and design of actions to reduce and offset the organization's or events' footprint.",
+    "empresa.includes.card2": "Creation of biocorridors and green spaces with native species.",
+    "empresa.includes.card3": "Planting and conservation days together with work teams.",
+    "empresa.includes.card4": "Workshops and training on biodiversity, well-being and sustainable decisions.",
+    "empresa.includes.card5": "Corporate volunteering experiences and team activities in natural environments.",
+    "empresa.includes.card6": "Close support in the planning, execution and communication of each action.",
+    
+    // Methodology
+    "empresa.methodology.title": "How we work",
+    "empresa.methodology.text": "We work from experience and action. Each project is designed together with the organization, combining learning, participation and work in the territory to achieve real impact aligned with its objectives.",
+    "empresa.methodology.subtitle": "Our process:",
+    "empresa.methodology.step1": "Team awareness and participation",
+    "empresa.methodology.step2": "Environmental action in the territory",
+    "empresa.methodology.step3": "Design of sustainable improvements",
+    "empresa.methodology.step4": "Support and closure with impact report",
+    
+    // Testimonials
+    "empresa.testimonial1.quote": "They showed us the importance of being in contact with nature on a daily basis, its link with neuroscience and gave us practical tips to reduce stress. It was a very enriching experience for the whole team.",
+    "empresa.testimonial1.author": "Jorge Yoyo Riva, CEO & founder of Tekuoia.",
+    
+    "empresa.testimonial2.quote": "It is a very nice and very important activity for environmental sustainability, given that we are in an industrial environment.",
+    "empresa.testimonial2.author": "Federico Colombo, Plant Manager VASA Los Cardales.",
+    
+    "empresa.testimonial3.quote": "We shared with the Generar Eco team a cleaning day at the Ribera Norte Municipal Natural Park. The teamwork made the task feel light, we saw how small actions can generate big changes. That day we didn't just pick up trash, we sowed awareness.",
+    "empresa.testimonial3.author": "Cintia Quiñones, HR Geo Services UPS.",
+
+
+    // ============ ENVIRONMENTAL EDUCATION PAGE ============
+    // Hero
+    "educa.hero.title": "Nature that teaches",
+    "educa.hero.text": "We create educational experiences in nature so that children and young people learn from experience, connect with the environment and develop a conscious and committed vision of its care.",
+    
+    // Target/Audience
+    "educa.target.title": "Who is it for?",
+    "educa.target.text": "For preschool, primary and secondary schools that want to promote environmental education through experience: learning in contact with nature and transforming that learning into action together with their students.",
+    
+    // Audience Cards
+    "educa.audience.card1": "Schools that wish to strengthen their environmental proposal.",
+    "educa.audience.card2": "Teachers interested in experiential and participatory activities.",
+    "educa.audience.card3": "Institutions seeking to connect their students with nature.",
+    "educa.audience.card4": "Educational spaces committed to germinating native trees and restoring environments from school.",
+    
+    // What's included
+    "educa.includes.title": "What the program includes",
+    "educa.includes.card1": "Interactive workshops on biodiversity, wetlands, native trees, butterflies and environmental care.",
+    "educa.includes.card2": "Educational trips to protected natural areas of the Delta and AMBA.",
+    "educa.includes.card3": "Interpretive walks to discover local flora and fauna.",
+    "educa.includes.card4": "Native species planting days with students.",
+    "educa.includes.card5": "Activities on composting, recycling and sustainable habits.",
+    "educa.includes.card6": "Educational material and support for teachers.",
+    "educa.includes.card7": "Experiences designed to awaken curiosity, well-being and connection with nature.",
+    
+    // Methodology
+    "educa.methodology.title": "How we work / Methodology",
+    "educa.methodology.text": "We learn by doing, feeling and observing nature. Each activity combines exploration, play, knowledge and concrete action, strengthening the link with local ecosystems.",
+    "educa.methodology.subtitle": "Our journey:",
+    "educa.methodology.step1": "Discover",
+    "educa.methodology.step2": "Know",
+    "educa.methodology.step3": "Explore",
+    "educa.methodology.step4": "Love",
+    "educa.methodology.step5": "Care",
+    "educa.methodology.step6": "Restore",
+    
+    // Expected impact
+    "educa.impact.title": "Expected impact",
+    "educa.impact.text": "Contact with nature strengthens students' emotional well-being and environmental sensitivity. We support the formation of conscious, critical and committed people to environmental care. Schools integrate environmental education as part of their identity and build sustainable projects in the long term.",
+    
+    // Impact Cards
+    "educa.impact.card1": "Real connection with nature",
+    "educa.impact.card2": "Active student participation",
+    "educa.impact.card3": "Sustainable habits at school",
+    "educa.impact.card4": "Concrete environmental actions",
+    
+    // Testimonial
+    "educa.testimonial.quote": "Our students came back transformed: more curious, more connected and eager to care for their environment.",
+    "educa.testimonial.author": "Participating teacher, Environmental Education Program",
+
+
 
 
     
