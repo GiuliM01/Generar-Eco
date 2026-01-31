@@ -3013,12 +3013,12 @@ main {
 }
 
 /* Cita */
-.impact-quote {
+.impact-quote-cita {
     max-width: 1200px;
-    font-size: 19px;
+    font-size: 19px !important;
     line-height: 1.5;
     font-weight: 600;
-    color: #1f1f1f;
+    color: #1f1f1f !important;
 }
 
 .impact-quote span {
@@ -3071,6 +3071,7 @@ main {
     font-weight: 500;
     margin-bottom: 30px;
 }
+
 
 .footer-copy {
     margin-top: 20px;
