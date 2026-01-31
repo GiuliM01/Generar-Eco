@@ -1,5 +1,5 @@
 <?php
-// Mantén estas líneas para que el JSON nunca se rompa
+// Mantén estas líneas para que el JSON nunca se rompa, quietarlas en el caso de que los emails no lleguen para saber el error 
 error_reporting(0);
 ini_set('display_errors', 0);
 
@@ -37,7 +37,7 @@ $cuerpo .= "Mensaje:\n" . $mensaje;
 
 // --- CAMBIO PARA EVITAR SPAM EN HOSTINGER ---
 $headers = "From: no-reply@generareco.org.ar\r\n"; // Un correo de tu propio dominio
-$headers .= "Reply-To: " . $email . "\r\n";      // Permite responder directamente al cliente
+$headers .= "Reply-To: " . $email . "\r\n";      // Permite responder directamente a l cliente
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 

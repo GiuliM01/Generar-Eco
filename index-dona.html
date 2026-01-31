@@ -203,6 +203,7 @@
     </div>
 
     </main>
+    
     <!-- SECCIÓN DE CONTACTO/FORMULARIO -->
 <section class="contact-container">
 
@@ -218,18 +219,18 @@
         </div>
     </div>
 
-    <form class="contact-form">
+    <form class="contact-form" id="contactForm">
 
         <label data-t="form.name.label">Nombre Completo:</label>
-        <input type="text" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
+        <input type="text" name="nombre" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
         <small class="error-msg"></small>
 
         <label data-t="form.email.label">Email:</label>
-        <input type="email" data-t="form.email.placeholder" placeholder="Email" required>
+        <input type="email" name="email" data-t="form.email.placeholder" placeholder="Email" required>
         <small class="error-msg"></small>
 
         <label data-t="form.org.label">Organización (Opcional):</label>
-        <select>
+        <select name="organizacion">
             <option value="" data-t="form.org.default">Seleccioná una opción</option>
             <option data-t="form.org.opt1">Empresa</option>
             <option data-t="form.org.opt2">ONG</option>
@@ -238,7 +239,7 @@
         </select>
 
         <label data-t="form.reason.label">Motivo de contacto:</label>
-<select required>
+<select name="motivo" required>
     <option value="" data-t="form.reason.default">Seleccioná un motivo</option>
     <option data-t="form.reason.opt1">Educación ambiental</option>
     <option data-t="form.reason.opt2">Desarrollo Empresarial</option>
@@ -251,12 +252,14 @@
 <small class="error-msg"></small>
 
         <label data-t="form.message.label">Mensaje:</label>
-        <textarea data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
+        <textarea name="mensaje" data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
         <small class="error-msg"></small>
 
         <button type="submit" class="submit-btn" data-t="form.submit">Enviar</button>
     </form>
 </section>
+
+
 
     <footer class="custom-footer">
     <div class="footer-wrapper">
