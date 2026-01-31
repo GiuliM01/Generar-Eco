@@ -2107,10 +2107,7 @@ body, html {
     }
     
     .hero-image-container {
-        width: 100%;
-        max-width: 500px;
-        height: 350px;
-        background-color: transparent;
+       display: none;
     }
     
     .hero-text h2 {
@@ -2148,6 +2145,9 @@ body, html {
 
 
 @media (max-width: 768px) {
+    .hero-section .hero-image-container {
+        display: none !important;
+    }
     .hero-text h2 {
         font-size: 2.2rem;
     }
@@ -2191,21 +2191,23 @@ body, html {
     .btn-donate-footer {
         align-self: center;
     }
+
+    
 }
 
 @media (max-width: 576px) {
     .hero-section {
         padding: 40px 20px;
     }
+
+    .hero-image-container {
+        display: none !important;
+    }
     
     .hero-text h2 {
         font-size: 1.9rem;
     }
     
-    .hero-image-container {
-        height: 280px;
-        background-color: transparent;
-    }
     
     .cards-container {
         padding: 40px 20px;
