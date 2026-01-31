@@ -269,6 +269,7 @@
 
 </section>
 
+    <!-- SECCIÓN DE CONTACTO/FORMULARIO -->
 <section class="contact-container">
 
     <div class="left-side">
@@ -283,40 +284,40 @@
         </div>
     </div>
 
-<form class="contact-form">
+    <form class="contact-form" id="contactForm">
 
-    <label data-t="form.name.label">Nombre Completo:</label>
-    <input type="text" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
-    <small class="error-msg"></small>
+        <label data-t="form.name.label">Nombre Completo:</label>
+        <input type="text" name="nombre" data-t="form.name.placeholder" placeholder="Nombre Completo" required>
+        <small class="error-msg"></small>
 
-    <label data-t="form.email.label">Email:</label>
-    <input type="email" data-t="form.email.placeholder" placeholder="Email" required>
-    <small class="error-msg"></small>
+        <label data-t="form.email.label">Email:</label>
+        <input type="email" name="email" data-t="form.email.placeholder" placeholder="Email" required>
+        <small class="error-msg"></small>
 
-    <label data-t="form.org.label">Organización (Opcional):</label>
-    <select>
-        <option value="" data-t="form.org.default">Seleccioná una opción</option>
-        <option data-t="form.org.opt1">Empresa</option>
-        <option data-t="form.org.opt2">ONG</option>
-        <option data-t="form.org.opt3">Institución educativa</option>
-        <option data-t="form.org.opt4">Persona particular</option>
-    </select>
+        <label data-t="form.org.label">Organización (Opcional):</label>
+        <select name="organizacion">
+            <option value="" data-t="form.org.default">Seleccioná una opción</option>
+            <option data-t="form.org.opt1">Empresa</option>
+            <option data-t="form.org.opt2">ONG</option>
+            <option data-t="form.org.opt3">Institución educativa</option>
+            <option data-t="form.org.opt4">Persona particular</option>
+        </select>
 
-    <label data-t="form.reason.label">Motivo de contacto:</label>
-    <select required>
-        <option value="" data-t="form.reason.default">Seleccioná un motivo</option>
-        <option data-t="form.reason.opt1">Educación ambiental</option>
-        <option data-t="form.reason.opt2">Desarrollo Empresarial</option>
-        <option data-t="form.reason.opt3">Ecoturismo</option>
-        <option data-t="form.reason.opt4">Reforestación</option>
-        <option data-t="form.reason.opt5">Donaciones y Sponsor</option>
-        <option data-t="form.reason.opt6">Marketing</option>
-        <option data-t="form.reason.opt7">Administración</option>
-    </select>
-    <small class="error-msg"></small>
+        <label data-t="form.reason.label">Motivo de contacto:</label>
+        <select name="motivo" required>
+            <option value="" data-t="form.reason.default">Seleccioná un motivo</option>
+            <option data-t="form.reason.opt1">Educación ambiental</option>
+            <option data-t="form.reason.opt2">Desarrollo Empresarial</option>
+            <option data-t="form.reason.opt3">Ecoturismo</option>
+            <option data-t="form.reason.opt4">Reforestación</option>
+            <option data-t="form.reason.opt5">Donaciones y Sponsor</option>
+            <option data-t="form.reason.opt6">Marketing</option>
+            <option data-t="form.reason.opt7">Administración</option>
+        </select>
+        <small class="error-msg"></small>
 
         <label data-t="form.message.label">Mensaje:</label>
-        <textarea data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
+        <textarea name="mensaje" data-t="form.message.placeholder" placeholder="Escribí tu mensaje..." required></textarea>
         <small class="error-msg"></small>
 
         <button type="submit" class="submit-btn" data-t="form.submit">Enviar</button>
