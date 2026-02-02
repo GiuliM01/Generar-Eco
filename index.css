@@ -1769,13 +1769,12 @@ body, html {
 /* Imagen hero mejorada */
 .hero-img-container {
     flex-shrink: 0;
-    width: 450px;
-    height: 400px;
-    border-radius: 25px;
+    width: 300px; 
+    height: 350px;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-    position: relative;
-    animation: slideInRight 0.8s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 @keyframes slideInRight {
@@ -1796,7 +1795,6 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(127, 176, 51, 0.1) 0%, transparent 100%);
     z-index: 1;
     pointer-events: none;
 }
@@ -2311,17 +2309,17 @@ main {
 
 .hero-image-container {
     flex-shrink: 0;
-    width: 500px; 
+    width: 500px;
     height: 350px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    animation: fadeIn 0.8s ease;
 }
 
 /* --- 2. A QUIÉN VA DIRIGIDO --- */
@@ -2683,7 +2681,6 @@ main {
 
     .hero-image-container .hero-image {
         align-items: flex-start;
-        background-color: transparent;
     }
 }
 
@@ -3014,6 +3011,19 @@ main {
     border-radius: 10px;
 }
 
+.impact-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    will-change: transform;  
+}
+
+@media (hover: hover) {
+     .impact-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+     }
+}
+
+
 /* Cita */
 .impact-quote-cita {
     max-width: 1200px;
@@ -3021,6 +3031,14 @@ main {
     line-height: 1.5;
     font-weight: 600;
     color: #1f1f1f !important;
+}
+
+.impact-quote-cita::before{
+    content: "“";
+}
+
+.impact-quote-cita::after{
+    content: "”";
 }
 
 .impact-quote span {
@@ -3057,6 +3075,7 @@ main {
 .testimonial-content-final {
     flex: 1;
     padding: 20px;
+    position: relative;
 }
 
 .testimonial-content-final blockquote {
@@ -3074,6 +3093,32 @@ main {
     margin-bottom: 30px;
 }
 
+.testimonial-content-final::before{
+    content: "“";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    font-size: 48px;
+    opacity: 0.3;
+} 
+
+.testimonial-content-final::after{
+    content: none;
+}
+
+.testimonial-content-final blockquote {
+    position: relative; 
+}
+
+.testimonial-content-final blockquote::after {
+    content: "”";
+    position: absolute;
+    bottom: -35px;       /* pegada al final del texto */
+    right: -12px;    /* apenas afuera del bloque */
+    font-size: 48px;
+    opacity: 0.3;
+    line-height: 1;
+}
 
 .footer-copy {
     margin-top: 20px;
@@ -3144,15 +3189,21 @@ main {
     }
     
     .hero-image-container {
-        background-color: transparent;
-        box-shadow: none;
+        width: 100%;
+        height: 260px;
+        overflow: hidden;
+        border-radius: 10px;
         padding: 0;
-        border-radius: 0;
+        background: transparent !important;
+        box-shadow: none !important;
     }
 
-    .hero-image {      
-        width: 200px;  
-        height: auto;
+    .hero-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        max-height: 200px; 
     }
 
     .section-title-qs{
@@ -3247,10 +3298,6 @@ main {
     }
 
     .history-section{
-        display: none;
-    }
-
-    .hero-image{
         display: none;
     }
 
@@ -3374,8 +3421,6 @@ main {
     }
 
     .hero-image-container {
-        background-color: transparent;
-        box-shadow: none;
         padding: 0;
         border-radius: 0;
     }
@@ -3604,7 +3649,6 @@ a {
     }
 
     .hero-image-container {
-    background-color: transparent;
     width: 100%;
     height: auto;
     }
@@ -3688,9 +3732,6 @@ a {
     justify-content: space-between;
 }
 
-.hero-image-container{
-    background-color: transparent;
-}
 .hero-image {
   width: 100%;
 }
@@ -5006,6 +5047,15 @@ button.btn-blog:focus {
 
 }
 
+.testimonio-text::before {
+    content: "“";
+}
+
+.testimonio-text::after {
+    content: "”";
+}
+
+
 .audiencia {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -5067,6 +5117,16 @@ button.btn-blog:focus {
     .publico-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .audiencia {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0 16px;
+    box-sizing: border-box;
     }
 }
 
