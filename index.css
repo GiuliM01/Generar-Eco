@@ -2099,13 +2099,18 @@ body, html {
 
 @media (max-width: 992px) {
     .hero-section{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 50px 5%;
+        min-height: auto;
+        height: auto;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
-    
+
     .hero-img-container {
-       display: none;
+        display: none;
+    }
+
+    .hero-text {
+        text-align: center;
     }
     
     .hero-text h2 {
@@ -2143,8 +2148,20 @@ body, html {
 
 
 @media (max-width: 768px) {
-    .hero-section .hero-img-container {
-        display: none !important;
+    .hero-section{
+        min-height: 0 !important;
+        height: auto !important;
+        padding-top: 32px !important;
+        padding-bottom: 32px !important;
+        margin-bottom: 0 !important;
+    }
+
+    section.hero-section *{
+        margin-top: 0;
+    }
+
+    .hero-img-container {
+        display: none;
     }
     .hero-text h2 {
         font-size: 2.2rem;
@@ -2723,6 +2740,38 @@ main {
     }
 }
 
+@media (max-width: 768px) {
+    .target-points {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0 12px;
+    }
+
+    .target-item {
+        background: #fff;
+        padding: 14px 16px;
+        border-radius: 14px;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        display: flex;
+        gap: 6px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .target-item h3 {
+        margin: 0;
+        font-size: 1.4rem;
+        line-height: 1;
+        flex-shrink: 0;
+    }
+    .target-item p {
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+}
+
 /* ------------------------------ CSS QUIENES SOMOS -------------------------------------- */
 
 :root {
@@ -3203,7 +3252,7 @@ main {
         height: 100%;
         object-fit: cover;
         display: block;
-        max-height: 200px; 
+        max-height: 300px; 
     }
 
     .section-title-qs{
@@ -5121,12 +5170,42 @@ button.btn-blog:focus {
 }
 
 @media (max-width: 768px) {
-
     .audiencia {
-    grid-template-columns: 1fr;
-    gap: 32px;
-    padding: 0 16px;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+    text-align: center !important;
+    }
+
+    .card-p4 {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .card-p4 h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    text-align: center !important;
+    }
+
+    .card-p4 p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    text-align: center !important;
+    }
+
+    .history-section{
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
