@@ -50,7 +50,7 @@ const lang = {
     "card1.text": "Educación ambiental para escuelas y comunidades",
     "card1.btn": "Participá",
     
-    "card2.text": "Agricultura regenerativa y producción sustentable",
+    "card2.text": "Ecoturismo y salidas en contacto con la Naturaleza",
     "card2.btn": "Más información",
     
     "card3.text": "Reforestación con especies nativas y restauración ecológica",
@@ -229,43 +229,37 @@ const lang = {
 
 // ============ PÁGINA RESERVA DON SILVESTRE ============
 // Hero
-  "reserva.hero.title": "Plantamos futuro",
-  "reserva.hero.text": "Un programa que devuelve vida a espacios degradados a través de la restauración con especies nativas, entendidas como parte viva del ecosistema. Cada acción es una experiencia que une educación ambiental, cuidado del territorio y participación comunitaria para regenerar ambientes y vínculos.",
+  "reserva.hero.title": "Reserva Natural Don Silvestre:",
+  "reserva.hero.subtitle": "conservación, comunidad y selva viva en un corredor biológico único.",
+  "reserva.hero.text": "La Reserva Natural Don Silvestre se encuentra en un corredor biológico estratégico que conecta el Parque Nacional Iguazú (Argentina) con el Parque Nacional do Iguaçu (Brasil). Este territorio es clave para la conservación de la Selva Atlántica, el desplazamiento de la fauna silvestre y el equilibrio de los ecosistemas. En este espacio en construcción impulsamos un modelo de desarrollo sostenible y turismo de naturaleza que promueve la observación, el aprendizaje y una conexión profunda con el ambiente.",
     
     // Target/Dirigido
     "reserva.target.title": "¿A quién está dirigido?",
-    "reserva.target.text": "Plantamos Futuro está pensado para quienes quieren recuperar espacios dañados y ser parte activa de su transformación, aprendiendo y actuando en comunidad.",
+    "reserva.target.text": "Este programa está dirigido a personas, organizaciones, instituciones educativas y empresas que buscan involucrarse activamente en la conservación de la naturaleza, apoyar procesos comunitarios y vivir experiencias significativas en un entorno de selva protegida.",
     "reserva.target.subtitle": "Pensado para:",
     
     // Audience Cards
-    "reserva.audience.card1": "Instituciones con espacios deteriorados que buscan restauración ecológica.",
-    "reserva.audience.card2": "Empresas que quieren vivir experiencias ambientales junto a sus equipos.",
-    "reserva.audience.card3": "Escuelas que promueven la educación ambiental en contacto con la naturaleza.",
+    "reserva.audience.card1": "Personas y grupos interesados en turismo de naturaleza y educación ambiental.",
+    "reserva.audience.card2": "Instituciones y organizaciones que buscan apoyar proyectos de conservación con impacto social.",
+    "reserva.audience.card3": "Empresas que desean desarrollar acciones de sostenibilidad y voluntariado ambiental en territorio.",
     
     // Qué incluye
     "reserva.includes.title": "Qué incluye el programa",
-    "reserva.includes.card1": "Diagnóstico ecológico del espacio a intervenir.",
-    "reserva.includes.card2": "Selección de especies nativas como parte viva del ecosistema, no solo para plantar.",
-    "reserva.includes.card3": "Jornada participativa de restauración y reforestación ecológica.",
-    "reserva.includes.card4": "Taller de educación y salud ambiental para comprender el rol de las especies nativas.",
-    "reserva.includes.card5": "Acompañamiento técnico y pedagógico durante todo el proceso.",
-    "reserva.includes.card6": "Material educativo ambiental para compartir con toda la comunidad.",
+    "reserva.includes.card1": "Reserva natural ubicada en un corredor biológico clave para la biodiversidad.",
+    "reserva.includes.card2": "Senderos interpretativos para la observación de flora y fauna nativa.",
+    "reserva.includes.card3": "Espacios pensados para la educación ambiental y el aprendizaje en contacto con la selva.",
+    "reserva.includes.card4": "Experiencias de turismo de naturaleza responsables y de bajo impacto.",
+    "reserva.includes.card5": "Participación activa de familias locales en la conservación y el desarrollo sostenible.",
     
     // Metodología
     "reserva.methodology.title": "Cómo se trabaja / Metodología",
-    "reserva.methodology.text": "Restaurar no es solo plantar. Es volver a conectar a las personas con el ecosistema del que forman parte. Por eso, cada proyecto combina educación ambiental, cuidado del entorno y participación activa para crear experiencias profundas y transformadoras.",
+    "reserva.methodology.text": "La reserva se construye desde un enfoque participativo y comunitario. Cada acción combina educación ambiental, trabajo en territorio y conservación activa, integrando los saberes locales con el acompañamiento técnico de Generar Eco y organizaciones aliadas.",
     "reserva.methodology.subtitle": "Nuestro camino:",
-    "reserva.methodology.step1": "Sensibilización.",
-    "reserva.methodology.step2": "Comprensión del ecosistema y las especies nativas.",
-    "reserva.methodology.step3": "Acción de restauración en territorio.",
-    "reserva.methodology.step4": "Acompañamiento continuo.",
-    "reserva.methodology.step5": "Consolidación del impacto.",
+    "reserva.methodology.step1": "Sensibilización y educación ambiental.",
+    "reserva.methodology.step2": "Acción concreta en territorio.",
+    "reserva.methodology.step3": "Participación comunitaria activa.",
+    "reserva.methodology.step4": "Acompañamiento y fortalecimiento a largo plazo.",
     
-    // Testimonial
-    "reserva.testimonial.quote": "Aprendimos que plantar nativas es mucho más que plantar árboles. Es recuperar vida y aprender juntos.",
-    "reserva.testimonial.author": "Docente participante",
-
-
      // ============ PÁGINA ECOTURISMO ============
     // Hero
     "eco.hero.title": "Ecoturismo con impacto positivo",
@@ -469,7 +463,7 @@ const lang = {
     "card1.text": "Environmental education for schools and communities",
     "card1.btn": "Join in",
     
-    "card2.text": "Regenerative agriculture and sustainable production",
+    "card2.text": "Ecotourism and nature-based experiences",
     "card2.btn": "More information",
     
     "card3.text": "Reforestation with native species and ecological restoration",
@@ -649,42 +643,36 @@ const lang = {
 
 // ============ DON SILVESTRE RESERVE PAGE ============
     // Hero
-    "reserva.hero.title": "We plant the future",
-    "reserva.hero.text": "A program that brings life back to degraded spaces through restoration with native species, understood as a living part of the ecosystem. Each action is an experience that unites environmental education, land care and community participation to regenerate environments and bonds.",
+    "reserva.hero.title": "Don Silvestre Nature Reserve:",
+    "reserva.hero.subtitle": "conservation, community, and living rainforest in a unique biological corridor.",
+    "reserva.hero.text": "Don Silvestre Nature Reserve is located in a strategic biological corridor that connects Iguazú National Park (Argentina) with Iguaçu National Park (Brazil). This territory is key to the conservation of the Atlantic Forest, the movement of wildlife, and the balance of ecosystems. In this evolving space, we promote a model of sustainable development and nature-based tourism that encourages observation, learning, and a deep connection with the environment.",
     
     // Target/Audience
     "reserva.target.title": "Who is it for?",
-    "reserva.target.text": "We Plant the Future is designed for those who want to restore damaged spaces and be an active part of their transformation, learning and acting in community.",
+    "reserva.target.text": "This program is designed for individuals, organizations, educational institutions, and companies seeking to actively engage in nature conservation, support community-driven processes, and experience meaningful activities in a protected rainforest environment.",
     "reserva.target.subtitle": "Designed for:",
     
     // Audience Cards
-    "reserva.audience.card1": "Institutions with deteriorated spaces seeking ecological restoration.",
-    "reserva.audience.card2": "Companies that want to experience environmental activities with their teams.",
-    "reserva.audience.card3": "Schools that promote environmental education in contact with nature.",
+    "reserva.audience.card1": "Individuals and groups interested in nature-based tourism and environmental education.",
+    "reserva.audience.card2": "Institutions and organizations seeking to support conservation projects with social impact.",
+    "reserva.audience.card3": "Companies looking to develop sustainability initiatives and environmental volunteering on site.",
     
     // What's included
     "reserva.includes.title": "What the program includes",
-    "reserva.includes.card1": "Ecological diagnosis of the space to be restored.",
-    "reserva.includes.card2": "Selection of native species as a living part of the ecosystem, not just for planting.",
-    "reserva.includes.card3": "Participatory ecological restoration and reforestation day.",
-    "reserva.includes.card4": "Environmental education and health workshop to understand the role of native species.",
-    "reserva.includes.card5": "Technical and pedagogical support throughout the process.",
-    "reserva.includes.card6": "Environmental educational material to share with the entire community.",
+    "reserva.includes.card1": "A nature reserve located in a key biological corridor for biodiversity.",
+    "reserva.includes.card2": "Interpretive trails for observing native flora and fauna.",
+    "reserva.includes.card3": "Spaces designed for environmental education and hands-on learning in the rainforest.",
+    "reserva.includes.card4": "Responsible, low-impact nature tourism experiences.",
+    "reserva.includes.card5": "Active participation of local families in conservation and sustainable development.",
     
     // Methodology
     "reserva.methodology.title": "How we work / Methodology",
-    "reserva.methodology.text": "Restoring is not just planting. It's reconnecting people with the ecosystem they're part of. That's why each project combines environmental education, environmental care and active participation to create deep and transformative experiences.",
+    "reserva.methodology.text": "The reserve is built through a participatory and community-based approach. Each action combines environmental education, fieldwork, and active conservation, integrating local knowledge with technical support from Generar Eco and partner organizations.",
     "reserva.methodology.subtitle": "Our path:",
-    "reserva.methodology.step1": "Awareness.",
-    "reserva.methodology.step2": "Understanding the ecosystem and native species.",
-    "reserva.methodology.step3": "Restoration action in the territory.",
-    "reserva.methodology.step4": "Continuous support.",
-    "reserva.methodology.step5": "Impact consolidation.",
-    
-    // Testimonial
-    "reserva.testimonial.quote": "We learned that planting native species is much more than planting trees. It's about recovering life and learning together.",
-    "reserva.testimonial.author": "Participating teacher",
-
+    "reserva.methodology.step1": "Awareness and environmental education.",
+    "reserva.methodology.step2": "Hands-on action in the field.",
+    "reserva.methodology.step3": "Active community participation.",
+    "reserva.methodology.step4": "Long-term support and capacity building.",
 
     // ============ ECOTOURISM PAGE ============
     // Hero
