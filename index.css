@@ -1415,7 +1415,7 @@ body, html {
 .left-img {
     position: relative;
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 80px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
 
@@ -3553,6 +3553,11 @@ a {
     height: 40px; /* Ajustar el tamaño del logo */
 }
 
+.navbar-brand img {
+  border-radius: 16px;
+}
+
+
 .nav a {
     margin-left: 25px;
     font-weight: 600;
@@ -4075,6 +4080,7 @@ a {
 .footer-logo img {
     height: 25px;
     margin-right: 10px;
+    border-radius: 16px;
 }
 
 .footer-logo p {
@@ -4203,7 +4209,8 @@ a {
 .footer-logo {
     width: 120px;
     height: auto;
-    margin-bottom: 15px;
+    border-radius: 16px;
+    margin-bottom: 16px;
 }
 
 /* Responsive */
