@@ -4310,6 +4310,12 @@ button.btn-blog:focus {
     width: 70%;
 }
 
+
+
+.navbar .dropdown-toggle:hover::after {
+    width: 0;
+}
+
 .navbar .nav-link:hover {
     color: #4F7F2B !important;
 }
